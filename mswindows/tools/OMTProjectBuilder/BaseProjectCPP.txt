@@ -1,0 +1,122 @@
+// ****************************************************************
+// Open Media Toolkit Project: %BaseProject%App.cpp
+// ****************************************************************
+
+#include "%BaseProject%App.h"
+
+%BaseProject%App::%BaseProject%App()
+{
+	init_display();
+	init_world();
+}
+
+%BaseProject%App::~%BaseProject%App()
+{
+	delete world;		// Deleting the world, deletes also sub-elements
+						// (viewport, captions, etc.)
+
+	delete monitors;
+}
+
+void %BaseProject%App::init_display(void)
+{
+	// * Create window
+
+	window = new OMediaSingleWindow(this);
+	window->set_menu(omd_DefaultMenu);
+	window->set_size(512,512);
+	window->place(40,40);
+	window->show();
+
+	// * Create a monitor maps
+	
+	// A monitor map automatically creates for you one video engine
+	// per card installed in your machine. It allows OMT to take
+	// care of multiple monitors automatically for you.
+
+	monitors = new OMediaMonitorMap(ommeic_Best,window);
+	window->link_monitor_map(monitors);
+
+
+	// * Select renderers for all monitors
+
+	// Now we need to pick up a renderer for each monitors. Because each
+	// monitor can be linked to a different cards, they may have different
+	// renderers.
+	//
+	// The monitor map contains a list of video engines. For each monitors
+	// I scan the display list and look for an accerated renderer. If there
+	// is no accelered device, I pick the first renderer of the list.
+
+	for(omt_VideoEngineList::iterator vi=monitors->engines.begin();
+		vi!=monitors->engines.end();
+		vi++)
+	{
+		OMediaRendererDef	*def = omc_NULL;
+
+		for(omt_RendererDefList::iterator ri = (*vi)->get_renderer_list()->begin();
+			ri!=(*vi)->get_renderer_list()->end();
+			ri++)
+		{
+			if ((*ri).attributes & omcrdattr_Accelerated ) def = &(*ri);	// Accelerated ?
+		}
+
+		// No accelerated device. Take the first one.
+		if (!def && (*vi)->get_renderer_list()->size()) def =  &(*(*vi)->get_renderer_list()->begin());
+
+
+		// Once I found a renderer I need to select it. This will automatically build the renderer for me.
+		if (def) (*vi)->select_renderer(def,omfzbc_NoZBuffer);
+	}
+}
+
+void %BaseProject%App::init_world(void)
+{
+	OMediaRect			r;
+	OMediaFARGBColor	argb;
+
+	// * World
+
+	world = new OMediaWorld;	// Create the root class
+
+
+	// * Viewport
+
+
+	viewport = new OMediaViewPort(window);		// Supervisor is window
+	viewport->link(world);
+	viewport->link_window(window);				// Output is window
+
+
+	r.set(0,0,0,0);		// Viewport bounds are right/bottom relative, so
+						// when the window is resized, the viewport is resized
+						// too.
+
+	viewport->setbounds(&r);
+	viewport->set_bounds_mode(omcpbc_Right,omvpbmc_RightRelative);
+	viewport->set_bounds_mode(omcpbc_Bottom,omvpbmc_BottomRelative);
+
+
+	// * Layer
+
+	argb.set(1.0f,0.9f,0.9f,0.9f);
+
+	layer = new OMediaLayer;
+	layer->link(world);
+	layer->add_flags(omlayerf_ClearColor);
+	layer->set_clear_color(argb);
+
+}
+
+//---------------------------------------------
+// OMT main entry point
+
+void omt_main(void)
+{
+	%BaseProject%App	*app;
+
+	app = new %BaseProject%App;		// Create and start application
+	app->start();
+	delete app;  
+}
+

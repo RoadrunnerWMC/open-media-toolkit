@@ -1,0 +1,5721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		034768DDFF38A45A11DB9C8B = {
+			children = (
+				034768DEFF38A45A11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+		034768DEFF38A45A11DB9C8B = {
+			isa = PBXFrameworkReference;
+			path = OpenMediaToolkit.framework;
+			refType = 3;
+		};
+//030
+//031
+//032
+//033
+//034
+//080
+//081
+//082
+//083
+//084
+		0867D690FE84028FC02AAC07 = {
+			buildStyles = (
+				4F0BB7EC011F40E904CA0E50,
+				4F0BB7ED011F40E904CA0E50,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 0867D691FE84028FC02AAC07;
+			productRefGroup = 034768DDFF38A45A11DB9C8B;
+			projectDirPath = "";
+			targets = (
+				0867D69CFE84028FC02AAC07,
+			);
+		};
+		0867D691FE84028FC02AAC07 = {
+			children = (
+				A34B1F5F0441B09200DC8217,
+				A3DDA13B043734B500DC8217,
+				08FB77ACFE841707C02AAC07,
+				089C1665FE841158C02AAC07,
+				0867D69AFE84028FC02AAC07,
+				034768DDFF38A45A11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = OMTFramework;
+			refType = 4;
+		};
+		0867D69AFE84028FC02AAC07 = {
+			children = (
+				A3DDA17B0437380600DC8217,
+				A3DDA177043737AE00DC8217,
+				A3DDA173043737A000DC8217,
+				A3DDA16F0437379700DC8217,
+				08FB77AAFE841565C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+		};
+		0867D69CFE84028FC02AAC07 = {
+			buildPhases = (
+				0867D69DFE84028FC02AAC07,
+				0867D69EFE84028FC02AAC07,
+				0867D69FFE84028FC02AAC07,
+				0867D6A0FE84028FC02AAC07,
+				0867D6A2FE84028FC02AAC07,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "../../extras/zlib-1.1.4/";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-seg1addr 0x10000000";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = OMTFramework_Prefix.h;
+				PRODUCT_NAME = OpenMediaToolkit;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = framework;
+			};
+			dependencies = (
+			);
+			isa = PBXFrameworkTarget;
+			name = OMTFramework;
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = OMTFramework;
+			productReference = 034768DEFF38A45A11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>OpenMediaToolkit</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.5.0</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>
+";
+		};
+		0867D69DFE84028FC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				32BAE0B80371A74B00C91783,
+				A36B076604386C3600DC8217,
+				A36B076904386C3600DC8217,
+				A36B076B04386C3600DC8217,
+				A36B076D04386C3600DC8217,
+				A36B076E04386C3600DC8217,
+				A36B077104386C3600DC8217,
+				A36B077304386C3600DC8217,
+				A36B077604386C3600DC8217,
+				A36B077804386C3600DC8217,
+				A36B077904386C3600DC8217,
+				A36B077B04386C3600DC8217,
+				A34B20E60441B09200DC8217,
+				A34B20E80441B09200DC8217,
+				A34B20EA0441B09200DC8217,
+				A34B20EB0441B09200DC8217,
+				A34B20EC0441B09200DC8217,
+				A34B20EE0441B09200DC8217,
+				A34B20EF0441B09200DC8217,
+				A34B20F10441B09200DC8217,
+				A34B20F20441B09200DC8217,
+				A34B20F30441B09200DC8217,
+				A34B20F40441B09200DC8217,
+				A34B20F60441B09200DC8217,
+				A34B20F80441B09200DC8217,
+				A34B20F90441B09200DC8217,
+				A34B20FA0441B09200DC8217,
+				A34B20FB0441B09200DC8217,
+				A34B20FC0441B09200DC8217,
+				A34B20FD0441B09200DC8217,
+				A34B20FF0441B09200DC8217,
+				A34B21000441B09200DC8217,
+				A34B21010441B09200DC8217,
+				A34B21030441B09200DC8217,
+				A34B21050441B09200DC8217,
+				A34B21070441B09200DC8217,
+				A34B21090441B09200DC8217,
+				A34B210B0441B09200DC8217,
+				A34B210D0441B09200DC8217,
+				A34B210F0441B09200DC8217,
+				A34B21110441B09200DC8217,
+				A34B21120441B09200DC8217,
+				A34B21130441B09200DC8217,
+				A34B21150441B09200DC8217,
+				A34B21170441B09200DC8217,
+				A34B21190441B09200DC8217,
+				A34B211B0441B09200DC8217,
+				A34B211D0441B09200DC8217,
+				A34B211F0441B09200DC8217,
+				A34B21200441B09200DC8217,
+				A34B21210441B09200DC8217,
+				A34B21230441B09200DC8217,
+				A34B21240441B09200DC8217,
+				A34B21250441B09200DC8217,
+				A34B21270441B09200DC8217,
+				A34B21290441B09200DC8217,
+				A34B212A0441B09200DC8217,
+				A34B212C0441B09200DC8217,
+				A34B212D0441B09200DC8217,
+				A34B212E0441B09200DC8217,
+				A34B212F0441B09200DC8217,
+				A34B21310441B09200DC8217,
+				A34B21360441B09200DC8217,
+				A34B21370441B09200DC8217,
+				A34B21380441B09200DC8217,
+				A34B21390441B09200DC8217,
+				A34B213B0441B09200DC8217,
+				A34B213D0441B09200DC8217,
+				A34B213E0441B09200DC8217,
+				A34B213F0441B09200DC8217,
+				A34B21400441B09200DC8217,
+				A34B21420441B09200DC8217,
+				A34B21430441B09200DC8217,
+				A34B21440441B09200DC8217,
+				A34B21450441B09200DC8217,
+				A34B21470441B09200DC8217,
+				A34B21480441B09200DC8217,
+				A34B214A0441B09200DC8217,
+				A34B214B0441B09200DC8217,
+				A34B214C0441B09200DC8217,
+				A34B214D0441B09200DC8217,
+				A34B214F0441B09200DC8217,
+				A34B21510441B09200DC8217,
+				A34B21520441B09200DC8217,
+				A34B21540441B09200DC8217,
+				A34B21560441B09200DC8217,
+				A34B21580441B09200DC8217,
+				A34B215A0441B09200DC8217,
+				A34B215D0441B09200DC8217,
+				A34B21600441B09200DC8217,
+				A34B21650441B09200DC8217,
+				A34B216A0441B09200DC8217,
+				A34B216C0441B09200DC8217,
+				A34B216E0441B09200DC8217,
+				A34B21700441B09200DC8217,
+				A34B21720441B09200DC8217,
+				A34B21750441B09200DC8217,
+				A34B21780441B09200DC8217,
+				A34B217A0441B09200DC8217,
+				A34B217C0441B09200DC8217,
+				A34B21800441B09200DC8217,
+				A34B21820441B09200DC8217,
+				A34B21850441B09200DC8217,
+				A34B21C10441B09200DC8217,
+				A34B21C30441B09200DC8217,
+				A34B21C50441B09200DC8217,
+				A34B21C70441B09200DC8217,
+				A34B21C90441B09200DC8217,
+				A34B21CA0441B09200DC8217,
+				A34B21CC0441B09200DC8217,
+				A34B21CE0441B09200DC8217,
+				A34B21D00441B09200DC8217,
+				A34B21D10441B09200DC8217,
+				A34B21D20441B09200DC8217,
+				A34B21D40441B09200DC8217,
+				A34B21D60441B09200DC8217,
+				A34B21D80441B09200DC8217,
+				A34B21DA0441B09200DC8217,
+				A34B21DC0441B09200DC8217,
+				A34B21DE0441B09200DC8217,
+				A34B21DF0441B09200DC8217,
+				A34B21E00441B09200DC8217,
+				A34B21E20441B09200DC8217,
+				A34B21E40441B09200DC8217,
+				A34B21E50441B09200DC8217,
+				A34B21E70441B09200DC8217,
+				A34B21E90441B09200DC8217,
+				A34B21EA0441B09200DC8217,
+				A34B21EB0441B09200DC8217,
+				A34B21EC0441B09200DC8217,
+				A34B21ED0441B09200DC8217,
+				A34B21EE0441B09200DC8217,
+				A34B21F00441B09200DC8217,
+				A34B21F20441B09200DC8217,
+				A34B21F40441B09200DC8217,
+				A34B21F60441B09200DC8217,
+				A34B21F80441B09200DC8217,
+				A34B21FA0441B09200DC8217,
+				A34B21FC0441B09200DC8217,
+				A34B21FE0441B09200DC8217,
+				A34B22000441B09200DC8217,
+				A34B22020441B09200DC8217,
+				A34B22040441B09200DC8217,
+				A34B22060441B09200DC8217,
+				A34B22080441B09200DC8217,
+				A34B22090441B09200DC8217,
+				A34B220B0441B09200DC8217,
+				A34B220C0441B09200DC8217,
+				A34B220D0441B09200DC8217,
+				A34B220E0441B09200DC8217,
+				A34B22100441B09200DC8217,
+				A34B22120441B09200DC8217,
+				A34B22140441B09200DC8217,
+				A34B22160441B09200DC8217,
+				A34B22180441B09200DC8217,
+				A34B221A0441B09200DC8217,
+				A34B221C0441B09200DC8217,
+				A34B221E0441B09200DC8217,
+				A34B22200441B09200DC8217,
+				A34B22220441B09200DC8217,
+				A34B22240441B09200DC8217,
+				A34B22260441B09200DC8217,
+				A34B22280441B09200DC8217,
+				A34B222A0441B09200DC8217,
+				A34B222C0441B09200DC8217,
+				A34B222E0441B09200DC8217,
+				A34B22300441B09200DC8217,
+				A34B22320441B09200DC8217,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867D69EFE84028FC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				089C1668FE841158C02AAC07,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867D69FFE84028FC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				A36B076204386C3600DC8217,
+				A36B076304386C3600DC8217,
+				A36B076404386C3600DC8217,
+				A36B076504386C3600DC8217,
+				A36B076704386C3600DC8217,
+				A36B076804386C3600DC8217,
+				A36B076A04386C3600DC8217,
+				A36B076C04386C3600DC8217,
+				A36B076F04386C3600DC8217,
+				A36B077004386C3600DC8217,
+				A36B077204386C3600DC8217,
+				A36B077504386C3600DC8217,
+				A36B077704386C3600DC8217,
+				A36B077A04386C3600DC8217,
+				A34B20E70441B09200DC8217,
+				A34B20E90441B09200DC8217,
+				A34B20ED0441B09200DC8217,
+				A34B20F00441B09200DC8217,
+				A34B20F50441B09200DC8217,
+				A34B20F70441B09200DC8217,
+				A34B20FE0441B09200DC8217,
+				A34B21020441B09200DC8217,
+				A34B21040441B09200DC8217,
+				A34B21060441B09200DC8217,
+				A34B21080441B09200DC8217,
+				A34B210A0441B09200DC8217,
+				A34B210C0441B09200DC8217,
+				A34B210E0441B09200DC8217,
+				A34B21100441B09200DC8217,
+				A34B21140441B09200DC8217,
+				A34B21160441B09200DC8217,
+				A34B21180441B09200DC8217,
+				A34B211A0441B09200DC8217,
+				A34B211C0441B09200DC8217,
+				A34B211E0441B09200DC8217,
+				A34B21220441B09200DC8217,
+				A34B21260441B09200DC8217,
+				A34B21280441B09200DC8217,
+				A34B212B0441B09200DC8217,
+				A34B21300441B09200DC8217,
+				A34B21320441B09200DC8217,
+				A34B21330441B09200DC8217,
+				A34B21340441B09200DC8217,
+				A34B21350441B09200DC8217,
+				A34B213A0441B09200DC8217,
+				A34B213C0441B09200DC8217,
+				A34B21410441B09200DC8217,
+				A34B21460441B09200DC8217,
+				A34B21490441B09200DC8217,
+				A34B214E0441B09200DC8217,
+				A34B21500441B09200DC8217,
+				A34B21530441B09200DC8217,
+				A34B21550441B09200DC8217,
+				A34B21570441B09200DC8217,
+				A34B21590441B09200DC8217,
+				A34B215C0441B09200DC8217,
+				A34B215E0441B09200DC8217,
+				A34B215F0441B09200DC8217,
+				A34B21610441B09200DC8217,
+				A34B21620441B09200DC8217,
+				A34B21630441B09200DC8217,
+				A34B21640441B09200DC8217,
+				A34B21660441B09200DC8217,
+				A34B21670441B09200DC8217,
+				A34B21680441B09200DC8217,
+				A34B21690441B09200DC8217,
+				A34B216B0441B09200DC8217,
+				A34B216D0441B09200DC8217,
+				A34B216F0441B09200DC8217,
+				A34B21710441B09200DC8217,
+				A34B21730441B09200DC8217,
+				A34B21740441B09200DC8217,
+				A34B21760441B09200DC8217,
+				A34B21770441B09200DC8217,
+				A34B21790441B09200DC8217,
+				A34B217B0441B09200DC8217,
+				A34B217D0441B09200DC8217,
+				A34B217E0441B09200DC8217,
+				A34B217F0441B09200DC8217,
+				A34B21810441B09200DC8217,
+				A34B21830441B09200DC8217,
+				A34B21840441B09200DC8217,
+				A34B21860441B09200DC8217,
+				A34B21C00441B09200DC8217,
+				A34B21C20441B09200DC8217,
+				A34B21C40441B09200DC8217,
+				A34B21C60441B09200DC8217,
+				A34B21C80441B09200DC8217,
+				A34B21CB0441B09200DC8217,
+				A34B21CD0441B09200DC8217,
+				A34B21CF0441B09200DC8217,
+				A34B21D30441B09200DC8217,
+				A34B21D50441B09200DC8217,
+				A34B21D70441B09200DC8217,
+				A34B21D90441B09200DC8217,
+				A34B21DB0441B09200DC8217,
+				A34B21DD0441B09200DC8217,
+				A34B21E10441B09200DC8217,
+				A34B21E30441B09200DC8217,
+				A34B21E60441B09200DC8217,
+				A34B21E80441B09200DC8217,
+				A34B21EF0441B09200DC8217,
+				A34B21F10441B09200DC8217,
+				A34B21F30441B09200DC8217,
+				A34B21F50441B09200DC8217,
+				A34B21F70441B09200DC8217,
+				A34B21F90441B09200DC8217,
+				A34B21FB0441B09200DC8217,
+				A34B21FD0441B09200DC8217,
+				A34B21FF0441B09200DC8217,
+				A34B22010441B09200DC8217,
+				A34B22030441B09200DC8217,
+				A34B22050441B09200DC8217,
+				A34B22070441B09200DC8217,
+				A34B220A0441B09200DC8217,
+				A34B220F0441B09200DC8217,
+				A34B22110441B09200DC8217,
+				A34B22130441B09200DC8217,
+				A34B22150441B09200DC8217,
+				A34B22170441B09200DC8217,
+				A34B22190441B09200DC8217,
+				A34B221B0441B09200DC8217,
+				A34B221D0441B09200DC8217,
+				A34B221F0441B09200DC8217,
+				A34B22210441B09200DC8217,
+				A34B22230441B09200DC8217,
+				A34B22250441B09200DC8217,
+				A34B22270441B09200DC8217,
+				A34B22290441B09200DC8217,
+				A34B222B0441B09200DC8217,
+				A34B222D0441B09200DC8217,
+				A34B222F0441B09200DC8217,
+				A34B22310441B09200DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867D6A0FE84028FC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				08FB77ABFE841565C02AAC07,
+				A3DDA1700437379700DC8217,
+				A3DDA174043737A000DC8217,
+				A3DDA178043737AE00DC8217,
+				A3DDA17C0437380600DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867D6A2FE84028FC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1665FE841158C02AAC07 = {
+			children = (
+				089C1666FE841158C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		089C1666FE841158C02AAC07 = {
+			children = (
+				089C1667FE841158C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C1667FE841158C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		089C1668FE841158C02AAC07 = {
+			fileRef = 089C1666FE841158C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		08FB77AAFE841565C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+		};
+		08FB77ABFE841565C02AAC07 = {
+			fileRef = 08FB77AAFE841565C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		08FB77ACFE841707C02AAC07 = {
+			children = (
+				32BAE0B70371A74B00C91783,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//320
+//321
+//322
+//323
+//324
+		32BAE0B70371A74B00C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = OMTFramework_Prefix.h;
+			refType = 4;
+		};
+		32BAE0B80371A74B00C91783 = {
+			fileRef = 32BAE0B70371A74B00C91783;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//320
+//321
+//322
+//323
+//324
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+		4F0BB7EC011F40E904CA0E50 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4F0BB7ED011F40E904CA0E50 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+//A30
+//A31
+//A32
+//A33
+//A34
+		A34B1F5F0441B09200DC8217 = {
+			children = (
+				A34B1F600441B09200DC8217,
+				A34B1F640441B09200DC8217,
+				A34B1F670441B09200DC8217,
+				A34B1F7B0441B09200DC8217,
+				A34B1F880441B09200DC8217,
+				A34B1FC50441B09200DC8217,
+				A34B1FCA0441B09200DC8217,
+				A34B1FD70441B09200DC8217,
+				A34B1FE10441B09200DC8217,
+				A34B206B0441B09200DC8217,
+				A34B20710441B09200DC8217,
+				A34B208D0441B09200DC8217,
+				A34B20980441B09200DC8217,
+				A34B209F0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = OMTClasses;
+			path = ../../sources/OMTClasses;
+			refType = 2;
+		};
+		A34B1F600441B09200DC8217 = {
+			children = (
+				A34B1F610441B09200DC8217,
+				A34B1F620441B09200DC8217,
+				A34B1F630441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Application;
+			path = ../../sources/OMTClasses/Application;
+			refType = 2;
+		};
+		A34B1F610441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAppHints.h;
+			path = ../../sources/OMTClasses/Application/OMediaAppHints.h;
+			refType = 2;
+		};
+		A34B1F620441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaApplication.cpp;
+			path = ../../sources/OMTClasses/Application/OMediaApplication.cpp;
+			refType = 2;
+		};
+		A34B1F630441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaApplication.h;
+			path = ../../sources/OMTClasses/Application/OMediaApplication.h;
+			refType = 2;
+		};
+		A34B1F640441B09200DC8217 = {
+			children = (
+				A34B1F650441B09200DC8217,
+				A34B1F660441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Compression;
+			path = ../../sources/OMTClasses/Compression;
+			refType = 2;
+		};
+		A34B1F650441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCompression.cpp;
+			path = ../../sources/OMTClasses/Compression/OMediaCompression.cpp;
+			refType = 2;
+		};
+		A34B1F660441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCompression.h;
+			path = ../../sources/OMTClasses/Compression/OMediaCompression.h;
+			refType = 2;
+		};
+		A34B1F670441B09200DC8217 = {
+			children = (
+				A34B1F680441B09200DC8217,
+				A34B1F690441B09200DC8217,
+				A34B1F6A0441B09200DC8217,
+				A34B1F6B0441B09200DC8217,
+				A34B1F6C0441B09200DC8217,
+				A34B1F6D0441B09200DC8217,
+				A34B1F6E0441B09200DC8217,
+				A34B1F6F0441B09200DC8217,
+				A34B1F700441B09200DC8217,
+				A34B1F710441B09200DC8217,
+				A34B1F720441B09200DC8217,
+				A34B1F730441B09200DC8217,
+				A34B1F740441B09200DC8217,
+				A34B1F750441B09200DC8217,
+				A34B1F760441B09200DC8217,
+				A34B1F770441B09200DC8217,
+				A34B1F780441B09200DC8217,
+				A34B1F790441B09200DC8217,
+				A34B1F7A0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../sources/OMTClasses/Core;
+			refType = 2;
+		};
+		A34B1F680441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBuildSwitch.h;
+			path = ../../sources/OMTClasses/Core/OMediaBuildSwitch.h;
+			refType = 2;
+		};
+		A34B1F690441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaClipboard.h;
+			path = ../../sources/OMTClasses/Core/OMediaClipboard.h;
+			refType = 2;
+		};
+		A34B1F6A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDLLSupport.cpp;
+			path = ../../sources/OMTClasses/Core/OMediaDLLSupport.cpp;
+			refType = 2;
+		};
+		A34B1F6B0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDLLSupport.h;
+			path = ../../sources/OMTClasses/Core/OMediaDLLSupport.h;
+			refType = 2;
+		};
+		A34B1F6C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEndianSupport.h;
+			path = ../../sources/OMTClasses/Core/OMediaEndianSupport.h;
+			refType = 2;
+		};
+		A34B1F6D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaError.cpp;
+			path = ../../sources/OMTClasses/Core/OMediaError.cpp;
+			refType = 2;
+		};
+		A34B1F6E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaError.h;
+			path = ../../sources/OMTClasses/Core/OMediaError.h;
+			refType = 2;
+		};
+		A34B1F6F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMemTools.h;
+			path = ../../sources/OMTClasses/Core/OMediaMemTools.h;
+			refType = 2;
+		};
+		A34B1F700441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMouseCursor.h;
+			path = ../../sources/OMTClasses/Core/OMediaMouseCursor.h;
+			refType = 2;
+		};
+		A34B1F710441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMoveableMem.h;
+			path = ../../sources/OMTClasses/Core/OMediaMoveableMem.h;
+			refType = 2;
+		};
+		A34B1F720441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPeriodical.cpp;
+			path = ../../sources/OMTClasses/Core/OMediaPeriodical.cpp;
+			refType = 2;
+		};
+		A34B1F730441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPeriodical.h;
+			path = ../../sources/OMTClasses/Core/OMediaPeriodical.h;
+			refType = 2;
+		};
+		A34B1F740441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRetarget.cpp;
+			path = ../../sources/OMTClasses/Core/OMediaRetarget.cpp;
+			refType = 2;
+		};
+		A34B1F750441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRetarget.h;
+			path = ../../sources/OMTClasses/Core/OMediaRetarget.h;
+			refType = 2;
+		};
+		A34B1F760441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRetargetDefs.h;
+			path = ../../sources/OMTClasses/Core/OMediaRetargetDefs.h;
+			refType = 2;
+		};
+		A34B1F770441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSysDefs.h;
+			path = ../../sources/OMTClasses/Core/OMediaSysDefs.h;
+			refType = 2;
+		};
+		A34B1F780441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaThread.h;
+			path = ../../sources/OMTClasses/Core/OMediaThread.h;
+			refType = 2;
+		};
+		A34B1F790441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTimeCounter.h;
+			path = ../../sources/OMTClasses/Core/OMediaTimeCounter.h;
+			refType = 2;
+		};
+		A34B1F7A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTypes.h;
+			path = ../../sources/OMTClasses/Core/OMediaTypes.h;
+			refType = 2;
+		};
+		A34B1F7B0441B09200DC8217 = {
+			children = (
+				A34B1F7C0441B09200DC8217,
+				A34B1F7D0441B09200DC8217,
+				A34B1F7E0441B09200DC8217,
+				A34B1F7F0441B09200DC8217,
+				A34B1F800441B09200DC8217,
+				A34B1F810441B09200DC8217,
+				A34B1F820441B09200DC8217,
+				A34B1F830441B09200DC8217,
+				A34B1F840441B09200DC8217,
+				A34B1F850441B09200DC8217,
+				A34B1F860441B09200DC8217,
+				A34B1F870441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Engines;
+			path = ../../sources/OMTClasses/Engines;
+			refType = 2;
+		};
+		A34B1F7C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEngine.cpp;
+			path = ../../sources/OMTClasses/Engines/OMediaEngine.cpp;
+			refType = 2;
+		};
+		A34B1F7D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEngine.h;
+			path = ../../sources/OMTClasses/Engines/OMediaEngine.h;
+			refType = 2;
+		};
+		A34B1F7E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEngineFactory.h;
+			path = ../../sources/OMTClasses/Engines/OMediaEngineFactory.h;
+			refType = 2;
+		};
+		A34B1F7F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEngineID.h;
+			path = ../../sources/OMTClasses/Engines/OMediaEngineID.h;
+			refType = 2;
+		};
+		A34B1F800441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEngineImplementation.cpp;
+			path = ../../sources/OMTClasses/Engines/OMediaEngineImplementation.cpp;
+			refType = 2;
+		};
+		A34B1F810441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEngineImplementation.h;
+			path = ../../sources/OMTClasses/Engines/OMediaEngineImplementation.h;
+			refType = 2;
+		};
+		A34B1F820441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaInputEngine.cpp;
+			path = ../../sources/OMTClasses/Engines/OMediaInputEngine.cpp;
+			refType = 2;
+		};
+		A34B1F830441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaInputEngine.h;
+			path = ../../sources/OMTClasses/Engines/OMediaInputEngine.h;
+			refType = 2;
+		};
+		A34B1F840441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSoundEngine.cpp;
+			path = ../../sources/OMTClasses/Engines/OMediaSoundEngine.cpp;
+			refType = 2;
+		};
+		A34B1F850441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSoundEngine.h;
+			path = ../../sources/OMTClasses/Engines/OMediaSoundEngine.h;
+			refType = 2;
+		};
+		A34B1F860441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaVideoEngine.cpp;
+			path = ../../sources/OMTClasses/Engines/OMediaVideoEngine.cpp;
+			refType = 2;
+		};
+		A34B1F870441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaVideoEngine.h;
+			path = ../../sources/OMTClasses/Engines/OMediaVideoEngine.h;
+			refType = 2;
+		};
+		A34B1F880441B09200DC8217 = {
+			children = (
+				A34B1F890441B09200DC8217,
+				A34B1F940441B09200DC8217,
+				A34B1F9B0441B09200DC8217,
+				A34B1FAC0441B09200DC8217,
+				A34B1FB30441B09200DC8217,
+				A34B1FBE0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Graphics;
+			path = ../../sources/OMTClasses/Graphics;
+			refType = 2;
+		};
+		A34B1F890441B09200DC8217 = {
+			children = (
+				A34B1F8A0441B09200DC8217,
+				A34B1F8B0441B09200DC8217,
+				A34B1F8C0441B09200DC8217,
+				A34B1F8D0441B09200DC8217,
+				A34B1F8E0441B09200DC8217,
+				A34B1F8F0441B09200DC8217,
+				A34B1F900441B09200DC8217,
+				A34B1F910441B09200DC8217,
+				A34B1F920441B09200DC8217,
+				A34B1F930441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = 3D;
+			path = ../../sources/OMTClasses/Graphics/3D;
+			refType = 2;
+		};
+		A34B1F8A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DMaterial.cpp;
+			path = ../../sources/OMTClasses/Graphics/3D/OMedia3DMaterial.cpp;
+			refType = 2;
+		};
+		A34B1F8B0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DMaterial.h;
+			path = ../../sources/OMTClasses/Graphics/3D/OMedia3DMaterial.h;
+			refType = 2;
+		};
+		A34B1F8C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DPolygon.cpp;
+			path = ../../sources/OMTClasses/Graphics/3D/OMedia3DPolygon.cpp;
+			refType = 2;
+		};
+		A34B1F8D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DPolygon.h;
+			path = ../../sources/OMTClasses/Graphics/3D/OMedia3DPolygon.h;
+			refType = 2;
+		};
+		A34B1F8E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShape.cpp;
+			path = ../../sources/OMTClasses/Graphics/3D/OMedia3DShape.cpp;
+			refType = 2;
+		};
+		A34B1F8F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShape.h;
+			path = ../../sources/OMTClasses/Graphics/3D/OMedia3DShape.h;
+			refType = 2;
+		};
+		A34B1F900441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaExtraTexturePass.cpp;
+			path = ../../sources/OMTClasses/Graphics/3D/OMediaExtraTexturePass.cpp;
+			refType = 2;
+		};
+		A34B1F910441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaExtraTexturePass.h;
+			path = ../../sources/OMTClasses/Graphics/3D/OMediaExtraTexturePass.h;
+			refType = 2;
+		};
+		A34B1F920441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMipmapGenerator.h;
+			path = ../../sources/OMTClasses/Graphics/3D/OMediaMipmapGenerator.h;
+			refType = 2;
+		};
+		A34B1F930441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRenderConstants.h;
+			path = ../../sources/OMTClasses/Graphics/3D/OMediaRenderConstants.h;
+			refType = 2;
+		};
+		A34B1F940441B09200DC8217 = {
+			children = (
+				A34B1F950441B09200DC8217,
+				A34B1F960441B09200DC8217,
+				A34B1F970441B09200DC8217,
+				A34B1F980441B09200DC8217,
+				A34B1F990441B09200DC8217,
+				A34B1F9A0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Canvas;
+			path = ../../sources/OMTClasses/Graphics/Canvas;
+			refType = 2;
+		};
+		A34B1F950441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvas.cpp;
+			path = ../../sources/OMTClasses/Graphics/Canvas/OMediaCanvas.cpp;
+			refType = 2;
+		};
+		A34B1F960441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvas.h;
+			path = ../../sources/OMTClasses/Graphics/Canvas/OMediaCanvas.h;
+			refType = 2;
+		};
+		A34B1F970441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasSlave.cpp;
+			path = ../../sources/OMTClasses/Graphics/Canvas/OMediaCanvasSlave.cpp;
+			refType = 2;
+		};
+		A34B1F980441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasSlave.h;
+			path = ../../sources/OMTClasses/Graphics/Canvas/OMediaCanvasSlave.h;
+			refType = 2;
+		};
+		A34B1F990441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaOMTCanvas.cpp;
+			path = ../../sources/OMTClasses/Graphics/Canvas/OMediaOMTCanvas.cpp;
+			refType = 2;
+		};
+		A34B1F9A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaOMTCanvas.h;
+			path = ../../sources/OMTClasses/Graphics/Canvas/OMediaOMTCanvas.h;
+			refType = 2;
+		};
+		A34B1F9B0441B09200DC8217 = {
+			children = (
+				A34B1F9C0441B09200DC8217,
+				A34B1F9D0441B09200DC8217,
+				A34B1F9E0441B09200DC8217,
+				A34B1F9F0441B09200DC8217,
+				A34B1FA00441B09200DC8217,
+				A34B1FA10441B09200DC8217,
+				A34B1FA20441B09200DC8217,
+				A34B1FA30441B09200DC8217,
+				A34B1FA40441B09200DC8217,
+				A34B1FA50441B09200DC8217,
+				A34B1FA60441B09200DC8217,
+				A34B1FA70441B09200DC8217,
+				A34B1FA80441B09200DC8217,
+				A34B1FA90441B09200DC8217,
+				A34B1FAA0441B09200DC8217,
+				A34B1FAB0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../sources/OMTClasses/Graphics/Core;
+			refType = 2;
+		};
+		A34B1F9C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBlendTable.cpp;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaBlendTable.cpp;
+			refType = 2;
+		};
+		A34B1F9D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBlendTable.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaBlendTable.h;
+			refType = 2;
+		};
+		A34B1F9E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBlitter.cpp;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaBlitter.cpp;
+			refType = 2;
+		};
+		A34B1F9F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBlitter.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaBlitter.h;
+			refType = 2;
+		};
+		A34B1FA00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasFont.cpp;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaCanvasFont.cpp;
+			refType = 2;
+		};
+		A34B1FA10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasFont.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaCanvasFont.h;
+			refType = 2;
+		};
+		A34B1FA20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDrawInterface.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaDrawInterface.h;
+			refType = 2;
+		};
+		A34B1FA30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFont.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaFont.h;
+			refType = 2;
+		};
+		A34B1FA40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaOffscreenBuffer.cpp;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaOffscreenBuffer.cpp;
+			refType = 2;
+		};
+		A34B1FA50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaOffscreenBuffer.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaOffscreenBuffer.h;
+			refType = 2;
+		};
+		A34B1FA60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPickRequest.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaPickRequest.h;
+			refType = 2;
+		};
+		A34B1FA70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPixelFormat.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaPixelFormat.h;
+			refType = 2;
+		};
+		A34B1FA80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRastBlitter.cpp;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaRastBlitter.cpp;
+			refType = 2;
+		};
+		A34B1FA90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRastBlitter.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaRastBlitter.h;
+			refType = 2;
+		};
+		A34B1FAA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRGBColor.cpp;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaRGBColor.cpp;
+			refType = 2;
+		};
+		A34B1FAB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRGBColor.h;
+			path = ../../sources/OMTClasses/Graphics/Core/OMediaRGBColor.h;
+			refType = 2;
+		};
+		A34B1FAC0441B09200DC8217 = {
+			children = (
+				A34B1FAD0441B09200DC8217,
+				A34B1FAE0441B09200DC8217,
+				A34B1FAF0441B09200DC8217,
+				A34B1FB00441B09200DC8217,
+				A34B1FB10441B09200DC8217,
+				A34B1FB20441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Pipeline;
+			path = ../../sources/OMTClasses/Graphics/Pipeline;
+			refType = 2;
+		};
+		A34B1FAD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPipeLight.h;
+			path = ../../sources/OMTClasses/Graphics/Pipeline/OMediaPipeLight.h;
+			refType = 2;
+		};
+		A34B1FAE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPipeline.cpp;
+			path = ../../sources/OMTClasses/Graphics/Pipeline/OMediaPipeline.cpp;
+			refType = 2;
+		};
+		A34B1FAF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPipeline.h;
+			path = ../../sources/OMTClasses/Graphics/Pipeline/OMediaPipeline.h;
+			refType = 2;
+		};
+		A34B1FB00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPipeMaterial.h;
+			path = ../../sources/OMTClasses/Graphics/Pipeline/OMediaPipeMaterial.h;
+			refType = 2;
+		};
+		A34B1FB10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPipePoint.h;
+			path = ../../sources/OMTClasses/Graphics/Pipeline/OMediaPipePoint.h;
+			refType = 2;
+		};
+		A34B1FB20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPipePolygon.h;
+			path = ../../sources/OMTClasses/Graphics/Pipeline/OMediaPipePolygon.h;
+			refType = 2;
+		};
+		A34B1FB30441B09200DC8217 = {
+			children = (
+				A34B1FB40441B09200DC8217,
+				A34B1FB50441B09200DC8217,
+				A34B1FB60441B09200DC8217,
+				A34B1FB70441B09200DC8217,
+				A34B1FB80441B09200DC8217,
+				A34B1FB90441B09200DC8217,
+				A34B1FBA0441B09200DC8217,
+				A34B1FBB0441B09200DC8217,
+				A34B1FBC0441B09200DC8217,
+				A34B1FBD0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Rasterizer;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer;
+			refType = 2;
+		};
+		A34B1FB40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSegmentRasterizer.cpp;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaSegmentRasterizer.cpp;
+			refType = 2;
+		};
+		A34B1FB50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSegmentRasterizer.h;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaSegmentRasterizer.h;
+			refType = 2;
+		};
+		A34B1FB60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTextSegmentRast16.cpp;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTextSegmentRast16.cpp;
+			refType = 2;
+		};
+		A34B1FB70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTextSegmentRast16T16.cpp;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTextSegmentRast16T16.cpp;
+			refType = 2;
+		};
+		A34B1FB80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTextSegmentRast32T16.cpp;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTextSegmentRast32T16.cpp;
+			refType = 2;
+		};
+		A34B1FB90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTextSegmentRasterizer.cpp;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTextSegmentRasterizer.cpp;
+			refType = 2;
+		};
+		A34B1FBA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTextSegmentRasterizer.h;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTextSegmentRasterizer.h;
+			refType = 2;
+		};
+		A34B1FBB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTriangleRasterizer.h;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTriangleRasterizer.h;
+			refType = 2;
+		};
+		A34B1FBC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTriangleRasterLine.h;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTriangleRasterLine.h;
+			refType = 2;
+		};
+		A34B1FBD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTriangleSegment.h;
+			path = ../../sources/OMTClasses/Graphics/Rasterizer/OMediaTriangleSegment.h;
+			refType = 2;
+		};
+		A34B1FBE0441B09200DC8217 = {
+			children = (
+				A34B1FBF0441B09200DC8217,
+				A34B1FC00441B09200DC8217,
+				A34B1FC10441B09200DC8217,
+				A34B1FC20441B09200DC8217,
+				A34B1FC30441B09200DC8217,
+				A34B1FC40441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Renderers;
+			path = ../../sources/OMTClasses/Graphics/Renderers;
+			refType = 2;
+		};
+		A34B1FBF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaOMTRenderer.cpp;
+			path = ../../sources/OMTClasses/Graphics/Renderers/OMediaOMTRenderer.cpp;
+			refType = 2;
+		};
+		A34B1FC00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaOMTRenderer.h;
+			path = ../../sources/OMTClasses/Graphics/Renderers/OMediaOMTRenderer.h;
+			refType = 2;
+		};
+		A34B1FC10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRenderer.cpp;
+			path = ../../sources/OMTClasses/Graphics/Renderers/OMediaRenderer.cpp;
+			refType = 2;
+		};
+		A34B1FC20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRenderer.h;
+			path = ../../sources/OMTClasses/Graphics/Renderers/OMediaRenderer.h;
+			refType = 2;
+		};
+		A34B1FC30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRendererDef.h;
+			path = ../../sources/OMTClasses/Graphics/Renderers/OMediaRendererDef.h;
+			refType = 2;
+		};
+		A34B1FC40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRendererInterface.h;
+			path = ../../sources/OMTClasses/Graphics/Renderers/OMediaRendererInterface.h;
+			refType = 2;
+		};
+		A34B1FC50441B09200DC8217 = {
+			children = (
+				A34B1FC60441B09200DC8217,
+				A34B1FC70441B09200DC8217,
+				A34B1FC80441B09200DC8217,
+				A34B1FC90441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Input;
+			path = ../../sources/OMTClasses/Input;
+			refType = 2;
+		};
+		A34B1FC60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaEventManager.h;
+			path = ../../sources/OMTClasses/Input/OMediaEventManager.h;
+			refType = 2;
+		};
+		A34B1FC70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaForceFeedback.cpp;
+			path = ../../sources/OMTClasses/Input/OMediaForceFeedback.cpp;
+			refType = 2;
+		};
+		A34B1FC80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaForceFeedback.h;
+			path = ../../sources/OMTClasses/Input/OMediaForceFeedback.h;
+			refType = 2;
+		};
+		A34B1FC90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaUSBHIDUsages.h;
+			path = ../../sources/OMTClasses/Input/OMediaUSBHIDUsages.h;
+			refType = 2;
+		};
+		A34B1FCA0441B09200DC8217 = {
+			children = (
+				A34B1FCB0441B09200DC8217,
+				A34B1FCC0441B09200DC8217,
+				A34B1FCD0441B09200DC8217,
+				A34B1FCE0441B09200DC8217,
+				A34B1FCF0441B09200DC8217,
+				A34B1FD00441B09200DC8217,
+				A34B1FD10441B09200DC8217,
+				A34B1FD20441B09200DC8217,
+				A34B1FD30441B09200DC8217,
+				A34B1FD40441B09200DC8217,
+				A34B1FD50441B09200DC8217,
+				A34B1FD60441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Math;
+			path = ../../sources/OMTClasses/Math;
+			refType = 2;
+		};
+		A34B1FCB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DAxis.h;
+			path = ../../sources/OMTClasses/Math/OMedia3DAxis.h;
+			refType = 2;
+		};
+		A34B1FCC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DPoint.h;
+			path = ../../sources/OMTClasses/Math/OMedia3DPoint.h;
+			refType = 2;
+		};
+		A34B1FCD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DVector.cpp;
+			path = ../../sources/OMTClasses/Math/OMedia3DVector.cpp;
+			refType = 2;
+		};
+		A34B1FCE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DVector.h;
+			path = ../../sources/OMTClasses/Math/OMedia3DVector.h;
+			refType = 2;
+		};
+		A34B1FCF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFixedPoint.h;
+			path = ../../sources/OMTClasses/Math/OMediaFixedPoint.h;
+			refType = 2;
+		};
+		A34B1FD00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMathTools.cpp;
+			path = ../../sources/OMTClasses/Math/OMediaMathTools.cpp;
+			refType = 2;
+		};
+		A34B1FD10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMathTools.h;
+			path = ../../sources/OMTClasses/Math/OMediaMathTools.h;
+			refType = 2;
+		};
+		A34B1FD20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMatrix.h;
+			path = ../../sources/OMTClasses/Math/OMediaMatrix.h;
+			refType = 2;
+		};
+		A34B1FD30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRect.h;
+			path = ../../sources/OMTClasses/Math/OMediaRect.h;
+			refType = 2;
+		};
+		A34B1FD40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSphere.h;
+			path = ../../sources/OMTClasses/Math/OMediaSphere.h;
+			refType = 2;
+		};
+		A34B1FD50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTrigo.cpp;
+			path = ../../sources/OMTClasses/Math/OMediaTrigo.cpp;
+			refType = 2;
+		};
+		A34B1FD60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTrigo.h;
+			path = ../../sources/OMTClasses/Math/OMediaTrigo.h;
+			refType = 2;
+		};
+		A34B1FD70441B09200DC8217 = {
+			children = (
+				A34B1FD80441B09200DC8217,
+				A34B1FD90441B09200DC8217,
+				A34B1FDA0441B09200DC8217,
+				A34B1FDB0441B09200DC8217,
+				A34B1FDC0441B09200DC8217,
+				A34B1FDD0441B09200DC8217,
+				A34B1FDE0441B09200DC8217,
+				A34B1FDF0441B09200DC8217,
+				A34B1FE00441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Messages;
+			path = ../../sources/OMTClasses/Messages;
+			refType = 2;
+		};
+		A34B1FD80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBroadcaster.cpp;
+			path = ../../sources/OMTClasses/Messages/OMediaBroadcaster.cpp;
+			refType = 2;
+		};
+		A34B1FD90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaBroadcaster.h;
+			path = ../../sources/OMTClasses/Messages/OMediaBroadcaster.h;
+			refType = 2;
+		};
+		A34B1FDA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDefMessages.h;
+			path = ../../sources/OMTClasses/Messages/OMediaDefMessages.h;
+			refType = 2;
+		};
+		A34B1FDB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaListener.cpp;
+			path = ../../sources/OMTClasses/Messages/OMediaListener.cpp;
+			refType = 2;
+		};
+		A34B1FDC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaListener.h;
+			path = ../../sources/OMTClasses/Messages/OMediaListener.h;
+			refType = 2;
+		};
+		A34B1FDD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMessagePort.cpp;
+			path = ../../sources/OMTClasses/Messages/OMediaMessagePort.cpp;
+			refType = 2;
+		};
+		A34B1FDE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMessagePort.h;
+			path = ../../sources/OMTClasses/Messages/OMediaMessagePort.h;
+			refType = 2;
+		};
+		A34B1FDF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSupervisor.cpp;
+			path = ../../sources/OMTClasses/Messages/OMediaSupervisor.cpp;
+			refType = 2;
+		};
+		A34B1FE00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSupervisor.h;
+			path = ../../sources/OMTClasses/Messages/OMediaSupervisor.h;
+			refType = 2;
+		};
+		A34B1FE10441B09200DC8217 = {
+			children = (
+				A34B1FE20441B09200DC8217,
+				A34B20610441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = OS;
+			path = ../../sources/OMTClasses/OS;
+			refType = 2;
+		};
+		A34B1FE20441B09200DC8217 = {
+			children = (
+				A34B1FE30441B09200DC8217,
+				A34B1FE90441B09200DC8217,
+				A34B1FF40441B09200DC8217,
+				A34B1FFC0441B09200DC8217,
+				A34B20030441B09200DC8217,
+				A34B20050441B09200DC8217,
+				A34B200B0441B09200DC8217,
+				A34B20100441B09200DC8217,
+				A34B20170441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = MacOS;
+			path = ../../sources/OMTClasses/OS/MacOS;
+			refType = 2;
+		};
+		A34B1FE30441B09200DC8217 = {
+			children = (
+				A34B1FE40441B09200DC8217,
+				A34B1FE50441B09200DC8217,
+				A34B1FE70441B09200DC8217,
+				A34B1FE80441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Application;
+			path = ../../sources/OMTClasses/OS/MacOS/Application;
+			refType = 2;
+		};
+		A34B1FE40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacAppleEvent.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Application/OMediaMacAppleEvent.cpp;
+			refType = 2;
+		};
+		A34B1FE50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacAppleEvent.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Application/OMediaMacAppleEvent.h;
+			refType = 2;
+		};
+		A34B1FE70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgApplication.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Application/OMediaMacRtgApplication.cpp;
+			refType = 2;
+		};
+		A34B1FE80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgApplication.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Application/OMediaMacRtgApplication.h;
+			refType = 2;
+		};
+		A34B1FE90441B09200DC8217 = {
+			children = (
+				A34B1FEA0441B09200DC8217,
+				A34B1FEB0441B09200DC8217,
+				A34B1FEC0441B09200DC8217,
+				A34B1FED0441B09200DC8217,
+				A34B1FEE0441B09200DC8217,
+				A34B1FEF0441B09200DC8217,
+				A34B1FF00441B09200DC8217,
+				A34B1FF10441B09200DC8217,
+				A34B1FF20441B09200DC8217,
+				A34B1FF30441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../sources/OMTClasses/OS/MacOS/Core;
+			refType = 2;
+		};
+		A34B1FEA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacClipboard.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacClipboard.cpp;
+			refType = 2;
+		};
+		A34B1FEB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacHideMBar.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacHideMBar.cpp;
+			refType = 2;
+		};
+		A34B1FEC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacHideMBar.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacHideMBar.h;
+			refType = 2;
+		};
+		A34B1FED0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacMemTools.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacMemTools.cpp;
+			refType = 2;
+		};
+		A34B1FEE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacMouseCursor.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacMouseCursor.cpp;
+			refType = 2;
+		};
+		A34B1FEF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacMoveableMem.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacMoveableMem.cpp;
+			refType = 2;
+		};
+		A34B1FF00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgMoveMem.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacRtgMoveMem.cpp;
+			refType = 2;
+		};
+		A34B1FF10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgMoveMem.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacRtgMoveMem.h;
+			refType = 2;
+		};
+		A34B1FF20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacThread.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacThread.cpp;
+			refType = 2;
+		};
+		A34B1FF30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacTimeCounter.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Core/OMediaMacTimeCounter.cpp;
+			refType = 2;
+		};
+		A34B1FF40441B09200DC8217 = {
+			children = (
+				A34B1FF50441B09200DC8217,
+				A34B1FF60441B09200DC8217,
+				A34B1FF70441B09200DC8217,
+				A34B1FF80441B09200DC8217,
+				A34B1FF90441B09200DC8217,
+				A34B1FFA0441B09200DC8217,
+				A34B1FFB0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Engines;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines;
+			refType = 2;
+		};
+		A34B1FF50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacEngineFactory.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacEngineFactory.cpp;
+			refType = 2;
+		};
+		A34B1FF60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacInputEngine.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacInputEngine.cpp;
+			refType = 2;
+		};
+		A34B1FF70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacInputEngine.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacInputEngine.h;
+			refType = 2;
+		};
+		A34B1FF80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacSoundEngine.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacSoundEngine.cpp;
+			refType = 2;
+		};
+		A34B1FF90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacSoundEngine.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacSoundEngine.h;
+			refType = 2;
+		};
+		A34B1FFA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacVideoEngine.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacVideoEngine.cpp;
+			refType = 2;
+		};
+		A34B1FFB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacVideoEngine.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Engines/OMediaMacVideoEngine.h;
+			refType = 2;
+		};
+		A34B1FFC0441B09200DC8217 = {
+			children = (
+				A34B1FFD0441B09200DC8217,
+				A34B20000441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Graphics;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics;
+			refType = 2;
+		};
+		A34B1FFD0441B09200DC8217 = {
+			children = (
+				A34B1FFE0441B09200DC8217,
+				A34B1FFF0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics/Core;
+			refType = 2;
+		};
+		A34B1FFE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacOffscreenBuffer.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics/Core/OMediaMacOffscreenBuffer.cpp;
+			refType = 2;
+		};
+		A34B1FFF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacOffscreenBuffer.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics/Core/OMediaMacOffscreenBuffer.h;
+			refType = 2;
+		};
+		A34B20000441B09200DC8217 = {
+			children = (
+				A34B20010441B09200DC8217,
+				A34B20020441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Renderers;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics/Renderers;
+			refType = 2;
+		};
+		A34B20010441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacGLRtgRenderer.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics/Renderers/OMediaMacGLRtgRenderer.cpp;
+			refType = 2;
+		};
+		A34B20020441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacGLRtgRenderer.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Graphics/Renderers/OMediaMacGLRtgRenderer.h;
+			refType = 2;
+		};
+		A34B20030441B09200DC8217 = {
+			children = (
+				A34B20040441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Input;
+			path = ../../sources/OMTClasses/OS/MacOS/Input;
+			refType = 2;
+		};
+		A34B20040441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacEventManager.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Input/OMediaMacEventManager.cpp;
+			refType = 2;
+		};
+		A34B20050441B09200DC8217 = {
+			children = (
+				A34B20060441B09200DC8217,
+				A34B20070441B09200DC8217,
+				A34B20080441B09200DC8217,
+				A34B20090441B09200DC8217,
+				A34B200A0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Sound;
+			path = ../../sources/OMTClasses/OS/MacOS/Sound;
+			refType = 2;
+		};
+		A34B20060441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgSound.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Sound/OMediaMacRtgSound.cpp;
+			refType = 2;
+		};
+		A34B20070441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgSound.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Sound/OMediaMacRtgSound.h;
+			refType = 2;
+		};
+		A34B20080441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacSound.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Sound/OMediaMacSound.cpp;
+			refType = 2;
+		};
+		A34B20090441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacSoundChannel.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Sound/OMediaMacSoundChannel.cpp;
+			refType = 2;
+		};
+		A34B200A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacSoundChannel.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Sound/OMediaMacSoundChannel.h;
+			refType = 2;
+		};
+		A34B200B0441B09200DC8217 = {
+			children = (
+				A34B200C0441B09200DC8217,
+				A34B200D0441B09200DC8217,
+				A34B200E0441B09200DC8217,
+				A34B200F0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Sprocket;
+			path = ../../sources/OMTClasses/OS/MacOS/Sprocket;
+			refType = 2;
+		};
+		A34B200C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSPInputEngine.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Sprocket/OMediaSPInputEngine.cpp;
+			refType = 2;
+		};
+		A34B200D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSPInputEngine.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Sprocket/OMediaSPInputEngine.h;
+			refType = 2;
+		};
+		A34B200E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSPVideoEngine.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Sprocket/OMediaSPVideoEngine.cpp;
+			refType = 2;
+		};
+		A34B200F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSPVideoEngine.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Sprocket/OMediaSPVideoEngine.h;
+			refType = 2;
+		};
+		A34B20100441B09200DC8217 = {
+			children = (
+				A34B20110441B09200DC8217,
+				A34B20120441B09200DC8217,
+				A34B20130441B09200DC8217,
+				A34B20140441B09200DC8217,
+				A34B20150441B09200DC8217,
+				A34B20160441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Stream;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream;
+			refType = 2;
+		};
+		A34B20110441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacFilePath.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream/OMediaMacFilePath.cpp;
+			refType = 2;
+		};
+		A34B20120441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacFileStream.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream/OMediaMacFileStream.cpp;
+			refType = 2;
+		};
+		A34B20130441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacResStream.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream/OMediaMacResStream.cpp;
+			refType = 2;
+		};
+		A34B20140441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacResStream.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream/OMediaMacResStream.h;
+			refType = 2;
+		};
+		A34B20150441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgFilePath.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream/OMediaMacRtgFilePath.cpp;
+			refType = 2;
+		};
+		A34B20160441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgFilePath.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Stream/OMediaMacRtgFilePath.h;
+			refType = 2;
+		};
+		A34B20170441B09200DC8217 = {
+			children = (
+				A34B20180441B09200DC8217,
+				A34B20190441B09200DC8217,
+				A34B201A0441B09200DC8217,
+				A34B201B0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Window;
+			path = ../../sources/OMTClasses/OS/MacOS/Window;
+			refType = 2;
+		};
+		A34B20180441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacFullscreenWindow.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Window/OMediaMacFullscreenWindow.cpp;
+			refType = 2;
+		};
+		A34B20190441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgWindow.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Window/OMediaMacRtgWindow.cpp;
+			refType = 2;
+		};
+		A34B201A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacRtgWindow.h;
+			path = ../../sources/OMTClasses/OS/MacOS/Window/OMediaMacRtgWindow.h;
+			refType = 2;
+		};
+		A34B201B0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacSingleWindow.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Window/OMediaMacSingleWindow.cpp;
+			refType = 2;
+		};
+		A34B20610441B09200DC8217 = {
+			children = (
+				A34B20620441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = OpenGL;
+			path = ../../sources/OMTClasses/OS/OpenGL;
+			refType = 2;
+		};
+		A34B20620441B09200DC8217 = {
+			children = (
+				A34B20630441B09200DC8217,
+				A34B20660441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Graphics;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics;
+			refType = 2;
+		};
+		A34B20630441B09200DC8217 = {
+			children = (
+				A34B20640441B09200DC8217,
+				A34B20650441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Canvas;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Canvas;
+			refType = 2;
+		};
+		A34B20640441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaGLCanvas.cpp;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Canvas/OMediaGLCanvas.cpp;
+			refType = 2;
+		};
+		A34B20650441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaGLCanvas.h;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Canvas/OMediaGLCanvas.h;
+			refType = 2;
+		};
+		A34B20660441B09200DC8217 = {
+			children = (
+				A34B20670441B09200DC8217,
+				A34B20680441B09200DC8217,
+				A34B20690441B09200DC8217,
+				A34B206A0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Renderers;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Renderers;
+			refType = 2;
+		};
+		A34B20670441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaGL3DShape.cpp;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Renderers/OMediaGL3DShape.cpp;
+			refType = 2;
+		};
+		A34B20680441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaGL3DShape.h;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Renderers/OMediaGL3DShape.h;
+			refType = 2;
+		};
+		A34B20690441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaGLRenderer.cpp;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Renderers/OMediaGLRenderer.cpp;
+			refType = 2;
+		};
+		A34B206A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaGLRenderer.h;
+			path = ../../sources/OMTClasses/OS/OpenGL/Graphics/Renderers/OMediaGLRenderer.h;
+			refType = 2;
+		};
+		A34B206B0441B09200DC8217 = {
+			children = (
+				A34B206C0441B09200DC8217,
+				A34B206D0441B09200DC8217,
+				A34B206E0441B09200DC8217,
+				A34B206F0441B09200DC8217,
+				A34B20700441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Sound;
+			path = ../../sources/OMTClasses/Sound;
+			refType = 2;
+		};
+		A34B206C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSound.cpp;
+			path = ../../sources/OMTClasses/Sound/OMediaSound.cpp;
+			refType = 2;
+		};
+		A34B206D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSound.h;
+			path = ../../sources/OMTClasses/Sound/OMediaSound.h;
+			refType = 2;
+		};
+		A34B206E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSoundChannel.cpp;
+			path = ../../sources/OMTClasses/Sound/OMediaSoundChannel.cpp;
+			refType = 2;
+		};
+		A34B206F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSoundChannel.h;
+			path = ../../sources/OMTClasses/Sound/OMediaSoundChannel.h;
+			refType = 2;
+		};
+		A34B20700441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWavFormat.h;
+			path = ../../sources/OMTClasses/Sound/OMediaWavFormat.h;
+			refType = 2;
+		};
+		A34B20710441B09200DC8217 = {
+			children = (
+				A34B20720441B09200DC8217,
+				A34B20750441B09200DC8217,
+				A34B207A0441B09200DC8217,
+				A34B20830441B09200DC8217,
+				A34B20880441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Stream;
+			path = ../../sources/OMTClasses/Stream;
+			refType = 2;
+		};
+		A34B20720441B09200DC8217 = {
+			children = (
+				A34B20730441B09200DC8217,
+				A34B20740441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Class;
+			path = ../../sources/OMTClasses/Stream/Class;
+			refType = 2;
+		};
+		A34B20730441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaClassStreamer.cpp;
+			path = ../../sources/OMTClasses/Stream/Class/OMediaClassStreamer.cpp;
+			refType = 2;
+		};
+		A34B20740441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaClassStreamer.h;
+			path = ../../sources/OMTClasses/Stream/Class/OMediaClassStreamer.h;
+			refType = 2;
+		};
+		A34B20750441B09200DC8217 = {
+			children = (
+				A34B20760441B09200DC8217,
+				A34B20770441B09200DC8217,
+				A34B20780441B09200DC8217,
+				A34B20790441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Converter;
+			path = ../../sources/OMTClasses/Stream/Converter;
+			refType = 2;
+		};
+		A34B20760441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeConverter.cpp;
+			path = ../../sources/OMTClasses/Stream/Converter/OMedia3DShapeConverter.cpp;
+			refType = 2;
+		};
+		A34B20770441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeConverter.h;
+			path = ../../sources/OMTClasses/Stream/Converter/OMedia3DShapeConverter.h;
+			refType = 2;
+		};
+		A34B20780441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasConverter.cpp;
+			path = ../../sources/OMTClasses/Stream/Converter/OMediaCanvasConverter.cpp;
+			refType = 2;
+		};
+		A34B20790441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasConverter.h;
+			path = ../../sources/OMTClasses/Stream/Converter/OMediaCanvasConverter.h;
+			refType = 2;
+		};
+		A34B207A0441B09200DC8217 = {
+			children = (
+				A34B207B0441B09200DC8217,
+				A34B207C0441B09200DC8217,
+				A34B207D0441B09200DC8217,
+				A34B207E0441B09200DC8217,
+				A34B207F0441B09200DC8217,
+				A34B20800441B09200DC8217,
+				A34B20810441B09200DC8217,
+				A34B20820441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../sources/OMTClasses/Stream/Core;
+			refType = 2;
+		};
+		A34B207B0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFilePath.h;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaFilePath.h;
+			refType = 2;
+		};
+		A34B207C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFileStream.h;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaFileStream.h;
+			refType = 2;
+		};
+		A34B207D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMemStream.cpp;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaMemStream.cpp;
+			refType = 2;
+		};
+		A34B207E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMemStream.h;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaMemStream.h;
+			refType = 2;
+		};
+		A34B207F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStream.cpp;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaStream.cpp;
+			refType = 2;
+		};
+		A34B20800441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStream.h;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaStream.h;
+			refType = 2;
+		};
+		A34B20810441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStreamOperators.cpp;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaStreamOperators.cpp;
+			refType = 2;
+		};
+		A34B20820441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStreamOperators.h;
+			path = ../../sources/OMTClasses/Stream/Core/OMediaStreamOperators.h;
+			refType = 2;
+		};
+		A34B20830441B09200DC8217 = {
+			children = (
+				A34B20840441B09200DC8217,
+				A34B20850441B09200DC8217,
+				A34B20860441B09200DC8217,
+				A34B20870441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Database;
+			path = ../../sources/OMTClasses/Stream/Database;
+			refType = 2;
+		};
+		A34B20840441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDataBase.cpp;
+			path = ../../sources/OMTClasses/Stream/Database/OMediaDataBase.cpp;
+			refType = 2;
+		};
+		A34B20850441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDataBase.h;
+			path = ../../sources/OMTClasses/Stream/Database/OMediaDataBase.h;
+			refType = 2;
+		};
+		A34B20860441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDBObject.cpp;
+			path = ../../sources/OMTClasses/Stream/Database/OMediaDBObject.cpp;
+			refType = 2;
+		};
+		A34B20870441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaDBObject.h;
+			path = ../../sources/OMTClasses/Stream/Database/OMediaDBObject.h;
+			refType = 2;
+		};
+		A34B20880441B09200DC8217 = {
+			children = (
+				A34B20890441B09200DC8217,
+				A34B208A0441B09200DC8217,
+				A34B208B0441B09200DC8217,
+				A34B208C0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Formatted;
+			path = ../../sources/OMTClasses/Stream/Formatted;
+			refType = 2;
+		};
+		A34B20890441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFormattedStream.cpp;
+			path = ../../sources/OMTClasses/Stream/Formatted/OMediaFormattedStream.cpp;
+			refType = 2;
+		};
+		A34B208A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFormattedStream.h;
+			path = ../../sources/OMTClasses/Stream/Formatted/OMediaFormattedStream.h;
+			refType = 2;
+		};
+		A34B208B0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFSChunk.h;
+			path = ../../sources/OMTClasses/Stream/Formatted/OMediaFSChunk.h;
+			refType = 2;
+		};
+		A34B208C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFSChunkTypeNode.h;
+			path = ../../sources/OMTClasses/Stream/Formatted/OMediaFSChunkTypeNode.h;
+			refType = 2;
+		};
+		A34B208D0441B09200DC8217 = {
+			children = (
+				A34B208E0441B09200DC8217,
+				A34B208F0441B09200DC8217,
+				A34B20900441B09200DC8217,
+				A34B20910441B09200DC8217,
+				A34B20920441B09200DC8217,
+				A34B20930441B09200DC8217,
+				A34B20940441B09200DC8217,
+				A34B20950441B09200DC8217,
+				A34B20960441B09200DC8217,
+				A34B20970441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Utility;
+			path = ../../sources/OMTClasses/Utility;
+			refType = 2;
+		};
+		A34B208E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCRC.cpp;
+			path = ../../sources/OMTClasses/Utility/OMediaCRC.cpp;
+			refType = 2;
+		};
+		A34B208F0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCRC.h;
+			path = ../../sources/OMTClasses/Utility/OMediaCRC.h;
+			refType = 2;
+		};
+		A34B20900441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaProfiler.cpp;
+			path = ../../sources/OMTClasses/Utility/OMediaProfiler.cpp;
+			refType = 2;
+		};
+		A34B20910441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaProfiler.h;
+			path = ../../sources/OMTClasses/Utility/OMediaProfiler.h;
+			refType = 2;
+		};
+		A34B20920441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRandomNumber.h;
+			path = ../../sources/OMTClasses/Utility/OMediaRandomNumber.h;
+			refType = 2;
+		};
+		A34B20930441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRLEPacker.cpp;
+			path = ../../sources/OMTClasses/Utility/OMediaRLEPacker.cpp;
+			refType = 2;
+		};
+		A34B20940441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRLEPacker.h;
+			path = ../../sources/OMTClasses/Utility/OMediaRLEPacker.h;
+			refType = 2;
+		};
+		A34B20950441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaString.cpp;
+			path = ../../sources/OMTClasses/Utility/OMediaString.cpp;
+			refType = 2;
+		};
+		A34B20960441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaString.h;
+			path = ../../sources/OMTClasses/Utility/OMediaString.h;
+			refType = 2;
+		};
+		A34B20970441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaTimer.h;
+			path = ../../sources/OMTClasses/Utility/OMediaTimer.h;
+			refType = 2;
+		};
+		A34B20980441B09200DC8217 = {
+			children = (
+				A34B20990441B09200DC8217,
+				A34B209A0441B09200DC8217,
+				A34B209B0441B09200DC8217,
+				A34B209C0441B09200DC8217,
+				A34B209D0441B09200DC8217,
+				A34B209E0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Window;
+			path = ../../sources/OMTClasses/Window;
+			refType = 2;
+		};
+		A34B20990441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFullscreenWindow.h;
+			path = ../../sources/OMTClasses/Window/OMediaFullscreenWindow.h;
+			refType = 2;
+		};
+		A34B209A0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMenu.h;
+			path = ../../sources/OMTClasses/Window/OMediaMenu.h;
+			refType = 2;
+		};
+		A34B209B0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMonitorMap.h;
+			path = ../../sources/OMTClasses/Window/OMediaMonitorMap.h;
+			refType = 2;
+		};
+		A34B209C0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSingleWindow.h;
+			path = ../../sources/OMTClasses/Window/OMediaSingleWindow.h;
+			refType = 2;
+		};
+		A34B209D0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWindow.cpp;
+			path = ../../sources/OMTClasses/Window/OMediaWindow.cpp;
+			refType = 2;
+		};
+		A34B209E0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWindow.h;
+			path = ../../sources/OMTClasses/Window/OMediaWindow.h;
+			refType = 2;
+		};
+		A34B209F0441B09200DC8217 = {
+			children = (
+				A34B20A00441B09200DC8217,
+				A34B20B10441B09200DC8217,
+				A34B20C00441B09200DC8217,
+				A34B20D50441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = World;
+			path = ../../sources/OMTClasses/World;
+			refType = 2;
+		};
+		A34B20A00441B09200DC8217 = {
+			children = (
+				A34B20A10441B09200DC8217,
+				A34B20A20441B09200DC8217,
+				A34B20A30441B09200DC8217,
+				A34B20A40441B09200DC8217,
+				A34B20A50441B09200DC8217,
+				A34B20A60441B09200DC8217,
+				A34B20A70441B09200DC8217,
+				A34B20A80441B09200DC8217,
+				A34B20A90441B09200DC8217,
+				A34B20AA0441B09200DC8217,
+				A34B20AB0441B09200DC8217,
+				A34B20AC0441B09200DC8217,
+				A34B20AD0441B09200DC8217,
+				A34B20AE0441B09200DC8217,
+				A34B20AF0441B09200DC8217,
+				A34B20B00441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Anim;
+			path = ../../sources/OMTClasses/World/Anim;
+			refType = 2;
+		};
+		A34B20A10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DMorphAnim.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DMorphAnim.cpp;
+			refType = 2;
+		};
+		A34B20A20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DMorphAnim.h;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DMorphAnim.h;
+			refType = 2;
+		};
+		A34B20A30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DMorphAnimFrame.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DMorphAnimFrame.cpp;
+			refType = 2;
+		};
+		A34B20A40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DMorphAnimFrame.h;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DMorphAnimFrame.h;
+			refType = 2;
+		};
+		A34B20A50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeAnim.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DShapeAnim.cpp;
+			refType = 2;
+		};
+		A34B20A60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeAnim.h;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DShapeAnim.h;
+			refType = 2;
+		};
+		A34B20A70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeAnimFrame.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DShapeAnimFrame.cpp;
+			refType = 2;
+		};
+		A34B20A80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeAnimFrame.h;
+			path = ../../sources/OMTClasses/World/Anim/OMedia3DShapeAnimFrame.h;
+			refType = 2;
+		};
+		A34B20A90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAnim.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMediaAnim.cpp;
+			refType = 2;
+		};
+		A34B20AA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAnim.h;
+			path = ../../sources/OMTClasses/World/Anim/OMediaAnim.h;
+			refType = 2;
+		};
+		A34B20AB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAnimFrame.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMediaAnimFrame.cpp;
+			refType = 2;
+		};
+		A34B20AC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAnimFrame.h;
+			path = ../../sources/OMTClasses/World/Anim/OMediaAnimFrame.h;
+			refType = 2;
+		};
+		A34B20AD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasAnim.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMediaCanvasAnim.cpp;
+			refType = 2;
+		};
+		A34B20AE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasAnim.h;
+			path = ../../sources/OMTClasses/World/Anim/OMediaCanvasAnim.h;
+			refType = 2;
+		};
+		A34B20AF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasAnimFrame.cpp;
+			path = ../../sources/OMTClasses/World/Anim/OMediaCanvasAnimFrame.cpp;
+			refType = 2;
+		};
+		A34B20B00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasAnimFrame.h;
+			path = ../../sources/OMTClasses/World/Anim/OMediaCanvasAnimFrame.h;
+			refType = 2;
+		};
+		A34B20B10441B09200DC8217 = {
+			children = (
+				A34B20B20441B09200DC8217,
+				A34B20B30441B09200DC8217,
+				A34B20B40441B09200DC8217,
+				A34B20B50441B09200DC8217,
+				A34B20B60441B09200DC8217,
+				A34B20B70441B09200DC8217,
+				A34B20B80441B09200DC8217,
+				A34B20B90441B09200DC8217,
+				A34B20BA0441B09200DC8217,
+				A34B20BB0441B09200DC8217,
+				A34B20BC0441B09200DC8217,
+				A34B20BD0441B09200DC8217,
+				A34B20BE0441B09200DC8217,
+				A34B20BF0441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../sources/OMTClasses/World/Core;
+			refType = 2;
+		};
+		A34B20B20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAnimPeriodical.cpp;
+			path = ../../sources/OMTClasses/World/Core/OMediaAnimPeriodical.cpp;
+			refType = 2;
+		};
+		A34B20B30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAnimPeriodical.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaAnimPeriodical.h;
+			refType = 2;
+		};
+		A34B20B40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCollisionCache.cpp;
+			path = ../../sources/OMTClasses/World/Core/OMediaCollisionCache.cpp;
+			refType = 2;
+		};
+		A34B20B50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCollisionCache.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaCollisionCache.h;
+			refType = 2;
+		};
+		A34B20B60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFocus.cpp;
+			path = ../../sources/OMTClasses/World/Core/OMediaFocus.cpp;
+			refType = 2;
+		};
+		A34B20B70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaFocus.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaFocus.h;
+			refType = 2;
+		};
+		A34B20B80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaLayer.cpp;
+			path = ../../sources/OMTClasses/World/Core/OMediaLayer.cpp;
+			refType = 2;
+		};
+		A34B20B90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaLayer.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaLayer.h;
+			refType = 2;
+		};
+		A34B20BA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRateManager.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaRateManager.h;
+			refType = 2;
+		};
+		A34B20BB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWorld.cpp;
+			path = ../../sources/OMTClasses/World/Core/OMediaWorld.cpp;
+			refType = 2;
+		};
+		A34B20BC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWorld.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaWorld.h;
+			refType = 2;
+		};
+		A34B20BD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWorldAngle.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaWorldAngle.h;
+			refType = 2;
+		};
+		A34B20BE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWorldPosition.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaWorldPosition.h;
+			refType = 2;
+		};
+		A34B20BF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaWorldUnits.h;
+			path = ../../sources/OMTClasses/World/Core/OMediaWorldUnits.h;
+			refType = 2;
+		};
+		A34B20C00441B09200DC8217 = {
+			children = (
+				A34B20C10441B09200DC8217,
+				A34B20C20441B09200DC8217,
+				A34B20C30441B09200DC8217,
+				A34B20C40441B09200DC8217,
+				A34B20C50441B09200DC8217,
+				A34B20C60441B09200DC8217,
+				A34B20C70441B09200DC8217,
+				A34B20C80441B09200DC8217,
+				A34B20C90441B09200DC8217,
+				A34B20CA0441B09200DC8217,
+				A34B20CB0441B09200DC8217,
+				A34B20CC0441B09200DC8217,
+				A34B20CD0441B09200DC8217,
+				A34B20CE0441B09200DC8217,
+				A34B20CF0441B09200DC8217,
+				A34B20D00441B09200DC8217,
+				A34B20D10441B09200DC8217,
+				A34B20D20441B09200DC8217,
+				A34B20D30441B09200DC8217,
+				A34B20D40441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = Element;
+			path = ../../sources/OMTClasses/World/Element;
+			refType = 2;
+		};
+		A34B20C10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeElement.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMedia3DShapeElement.cpp;
+			refType = 2;
+		};
+		A34B20C20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMedia3DShapeElement.h;
+			path = ../../sources/OMTClasses/World/Element/OMedia3DShapeElement.h;
+			refType = 2;
+		};
+		A34B20C30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasElement.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaCanvasElement.cpp;
+			refType = 2;
+		};
+		A34B20C40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasElement.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaCanvasElement.h;
+			refType = 2;
+		};
+		A34B20C50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaElement.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaElement.cpp;
+			refType = 2;
+		};
+		A34B20C60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaElement.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaElement.h;
+			refType = 2;
+		};
+		A34B20C70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaElementContainer.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaElementContainer.cpp;
+			refType = 2;
+		};
+		A34B20C80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaElementContainer.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaElementContainer.h;
+			refType = 2;
+		};
+		A34B20C90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaLight.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaLight.cpp;
+			refType = 2;
+		};
+		A34B20CA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaLight.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaLight.h;
+			refType = 2;
+		};
+		A34B20CB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMetaElement.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaMetaElement.cpp;
+			refType = 2;
+		};
+		A34B20CC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMetaElement.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaMetaElement.h;
+			refType = 2;
+		};
+		A34B20CD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaParticleEmitter.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaParticleEmitter.cpp;
+			refType = 2;
+		};
+		A34B20CE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaParticleEmitter.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaParticleEmitter.h;
+			refType = 2;
+		};
+		A34B20CF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPrimitiveElement.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaPrimitiveElement.cpp;
+			refType = 2;
+		};
+		A34B20D00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaPrimitiveElement.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaPrimitiveElement.h;
+			refType = 2;
+		};
+		A34B20D10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSurfaceElement.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaSurfaceElement.cpp;
+			refType = 2;
+		};
+		A34B20D20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSurfaceElement.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaSurfaceElement.h;
+			refType = 2;
+		};
+		A34B20D30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaViewPort.cpp;
+			path = ../../sources/OMTClasses/World/Element/OMediaViewPort.cpp;
+			refType = 2;
+		};
+		A34B20D40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaViewPort.h;
+			path = ../../sources/OMTClasses/World/Element/OMediaViewPort.h;
+			refType = 2;
+		};
+		A34B20D50441B09200DC8217 = {
+			children = (
+				A34B20D60441B09200DC8217,
+				A34B20D70441B09200DC8217,
+				A34B20D80441B09200DC8217,
+				A34B20D90441B09200DC8217,
+				A34B20DA0441B09200DC8217,
+				A34B20DB0441B09200DC8217,
+				A34B20DC0441B09200DC8217,
+				A34B20DD0441B09200DC8217,
+				A34B20DE0441B09200DC8217,
+				A34B20DF0441B09200DC8217,
+				A34B20E00441B09200DC8217,
+				A34B20E10441B09200DC8217,
+				A34B20E20441B09200DC8217,
+				A34B20E30441B09200DC8217,
+				A34B20E40441B09200DC8217,
+				A34B20E50441B09200DC8217,
+			);
+			isa = PBXGroup;
+			name = UI;
+			path = ../../sources/OMTClasses/World/UI;
+			refType = 2;
+		};
+		A34B20D60441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAbstractButton.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaAbstractButton.cpp;
+			refType = 2;
+		};
+		A34B20D70441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaAbstractButton.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaAbstractButton.h;
+			refType = 2;
+		};
+		A34B20D80441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasButton.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaCanvasButton.cpp;
+			refType = 2;
+		};
+		A34B20D90441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCanvasButton.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaCanvasButton.h;
+			refType = 2;
+		};
+		A34B20DA0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCaption.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaCaption.cpp;
+			refType = 2;
+		};
+		A34B20DB0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaCaption.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaCaption.h;
+			refType = 2;
+		};
+		A34B20DC0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRadioGroup.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaRadioGroup.cpp;
+			refType = 2;
+		};
+		A34B20DD0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaRadioGroup.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaRadioGroup.h;
+			refType = 2;
+		};
+		A34B20DE0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaScroller.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaScroller.cpp;
+			refType = 2;
+		};
+		A34B20DF0441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaScroller.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaScroller.h;
+			refType = 2;
+		};
+		A34B20E00441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSlider.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaSlider.cpp;
+			refType = 2;
+		};
+		A34B20E10441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaSlider.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaSlider.h;
+			refType = 2;
+		};
+		A34B20E20441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStdButton.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaStdButton.cpp;
+			refType = 2;
+		};
+		A34B20E30441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStdButton.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaStdButton.h;
+			refType = 2;
+		};
+		A34B20E40441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStringField.cpp;
+			path = ../../sources/OMTClasses/World/UI/OMediaStringField.cpp;
+			refType = 2;
+		};
+		A34B20E50441B09200DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaStringField.h;
+			path = ../../sources/OMTClasses/World/UI/OMediaStringField.h;
+			refType = 2;
+		};
+		A34B20E60441B09200DC8217 = {
+			fileRef = A34B1F610441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20E70441B09200DC8217 = {
+			fileRef = A34B1F620441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20E80441B09200DC8217 = {
+			fileRef = A34B1F630441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20E90441B09200DC8217 = {
+			fileRef = A34B1F650441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20EA0441B09200DC8217 = {
+			fileRef = A34B1F660441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20EB0441B09200DC8217 = {
+			fileRef = A34B1F680441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20EC0441B09200DC8217 = {
+			fileRef = A34B1F690441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20ED0441B09200DC8217 = {
+			fileRef = A34B1F6A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20EE0441B09200DC8217 = {
+			fileRef = A34B1F6B0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20EF0441B09200DC8217 = {
+			fileRef = A34B1F6C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F00441B09200DC8217 = {
+			fileRef = A34B1F6D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20F10441B09200DC8217 = {
+			fileRef = A34B1F6E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F20441B09200DC8217 = {
+			fileRef = A34B1F6F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F30441B09200DC8217 = {
+			fileRef = A34B1F700441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F40441B09200DC8217 = {
+			fileRef = A34B1F710441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F50441B09200DC8217 = {
+			fileRef = A34B1F720441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20F60441B09200DC8217 = {
+			fileRef = A34B1F730441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F70441B09200DC8217 = {
+			fileRef = A34B1F740441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20F80441B09200DC8217 = {
+			fileRef = A34B1F750441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20F90441B09200DC8217 = {
+			fileRef = A34B1F760441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20FA0441B09200DC8217 = {
+			fileRef = A34B1F770441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20FB0441B09200DC8217 = {
+			fileRef = A34B1F780441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20FC0441B09200DC8217 = {
+			fileRef = A34B1F790441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20FD0441B09200DC8217 = {
+			fileRef = A34B1F7A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B20FE0441B09200DC8217 = {
+			fileRef = A34B1F7C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B20FF0441B09200DC8217 = {
+			fileRef = A34B1F7D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21000441B09200DC8217 = {
+			fileRef = A34B1F7E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21010441B09200DC8217 = {
+			fileRef = A34B1F7F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21020441B09200DC8217 = {
+			fileRef = A34B1F800441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21030441B09200DC8217 = {
+			fileRef = A34B1F810441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21040441B09200DC8217 = {
+			fileRef = A34B1F820441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21050441B09200DC8217 = {
+			fileRef = A34B1F830441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21060441B09200DC8217 = {
+			fileRef = A34B1F840441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21070441B09200DC8217 = {
+			fileRef = A34B1F850441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21080441B09200DC8217 = {
+			fileRef = A34B1F860441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21090441B09200DC8217 = {
+			fileRef = A34B1F870441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B210A0441B09200DC8217 = {
+			fileRef = A34B1F8A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B210B0441B09200DC8217 = {
+			fileRef = A34B1F8B0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B210C0441B09200DC8217 = {
+			fileRef = A34B1F8C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B210D0441B09200DC8217 = {
+			fileRef = A34B1F8D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B210E0441B09200DC8217 = {
+			fileRef = A34B1F8E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B210F0441B09200DC8217 = {
+			fileRef = A34B1F8F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21100441B09200DC8217 = {
+			fileRef = A34B1F900441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21110441B09200DC8217 = {
+			fileRef = A34B1F910441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21120441B09200DC8217 = {
+			fileRef = A34B1F920441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21130441B09200DC8217 = {
+			fileRef = A34B1F930441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21140441B09200DC8217 = {
+			fileRef = A34B1F950441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21150441B09200DC8217 = {
+			fileRef = A34B1F960441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21160441B09200DC8217 = {
+			fileRef = A34B1F970441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21170441B09200DC8217 = {
+			fileRef = A34B1F980441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21180441B09200DC8217 = {
+			fileRef = A34B1F990441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21190441B09200DC8217 = {
+			fileRef = A34B1F9A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B211A0441B09200DC8217 = {
+			fileRef = A34B1F9C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B211B0441B09200DC8217 = {
+			fileRef = A34B1F9D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B211C0441B09200DC8217 = {
+			fileRef = A34B1F9E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B211D0441B09200DC8217 = {
+			fileRef = A34B1F9F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B211E0441B09200DC8217 = {
+			fileRef = A34B1FA00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B211F0441B09200DC8217 = {
+			fileRef = A34B1FA10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21200441B09200DC8217 = {
+			fileRef = A34B1FA20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21210441B09200DC8217 = {
+			fileRef = A34B1FA30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21220441B09200DC8217 = {
+			fileRef = A34B1FA40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21230441B09200DC8217 = {
+			fileRef = A34B1FA50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21240441B09200DC8217 = {
+			fileRef = A34B1FA60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21250441B09200DC8217 = {
+			fileRef = A34B1FA70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21260441B09200DC8217 = {
+			fileRef = A34B1FA80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21270441B09200DC8217 = {
+			fileRef = A34B1FA90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21280441B09200DC8217 = {
+			fileRef = A34B1FAA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21290441B09200DC8217 = {
+			fileRef = A34B1FAB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B212A0441B09200DC8217 = {
+			fileRef = A34B1FAD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B212B0441B09200DC8217 = {
+			fileRef = A34B1FAE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B212C0441B09200DC8217 = {
+			fileRef = A34B1FAF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B212D0441B09200DC8217 = {
+			fileRef = A34B1FB00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B212E0441B09200DC8217 = {
+			fileRef = A34B1FB10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B212F0441B09200DC8217 = {
+			fileRef = A34B1FB20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21300441B09200DC8217 = {
+			fileRef = A34B1FB40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21310441B09200DC8217 = {
+			fileRef = A34B1FB50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21320441B09200DC8217 = {
+			fileRef = A34B1FB60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21330441B09200DC8217 = {
+			fileRef = A34B1FB70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21340441B09200DC8217 = {
+			fileRef = A34B1FB80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21350441B09200DC8217 = {
+			fileRef = A34B1FB90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21360441B09200DC8217 = {
+			fileRef = A34B1FBA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21370441B09200DC8217 = {
+			fileRef = A34B1FBB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21380441B09200DC8217 = {
+			fileRef = A34B1FBC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21390441B09200DC8217 = {
+			fileRef = A34B1FBD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B213A0441B09200DC8217 = {
+			fileRef = A34B1FBF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B213B0441B09200DC8217 = {
+			fileRef = A34B1FC00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B213C0441B09200DC8217 = {
+			fileRef = A34B1FC10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B213D0441B09200DC8217 = {
+			fileRef = A34B1FC20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B213E0441B09200DC8217 = {
+			fileRef = A34B1FC30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B213F0441B09200DC8217 = {
+			fileRef = A34B1FC40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21400441B09200DC8217 = {
+			fileRef = A34B1FC60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21410441B09200DC8217 = {
+			fileRef = A34B1FC70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21420441B09200DC8217 = {
+			fileRef = A34B1FC80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21430441B09200DC8217 = {
+			fileRef = A34B1FC90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21440441B09200DC8217 = {
+			fileRef = A34B1FCB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21450441B09200DC8217 = {
+			fileRef = A34B1FCC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21460441B09200DC8217 = {
+			fileRef = A34B1FCD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21470441B09200DC8217 = {
+			fileRef = A34B1FCE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21480441B09200DC8217 = {
+			fileRef = A34B1FCF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21490441B09200DC8217 = {
+			fileRef = A34B1FD00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B214A0441B09200DC8217 = {
+			fileRef = A34B1FD10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B214B0441B09200DC8217 = {
+			fileRef = A34B1FD20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B214C0441B09200DC8217 = {
+			fileRef = A34B1FD30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B214D0441B09200DC8217 = {
+			fileRef = A34B1FD40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B214E0441B09200DC8217 = {
+			fileRef = A34B1FD50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B214F0441B09200DC8217 = {
+			fileRef = A34B1FD60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21500441B09200DC8217 = {
+			fileRef = A34B1FD80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21510441B09200DC8217 = {
+			fileRef = A34B1FD90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21520441B09200DC8217 = {
+			fileRef = A34B1FDA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21530441B09200DC8217 = {
+			fileRef = A34B1FDB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21540441B09200DC8217 = {
+			fileRef = A34B1FDC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21550441B09200DC8217 = {
+			fileRef = A34B1FDD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21560441B09200DC8217 = {
+			fileRef = A34B1FDE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21570441B09200DC8217 = {
+			fileRef = A34B1FDF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21580441B09200DC8217 = {
+			fileRef = A34B1FE00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21590441B09200DC8217 = {
+			fileRef = A34B1FE40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B215A0441B09200DC8217 = {
+			fileRef = A34B1FE50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B215C0441B09200DC8217 = {
+			fileRef = A34B1FE70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B215D0441B09200DC8217 = {
+			fileRef = A34B1FE80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B215E0441B09200DC8217 = {
+			fileRef = A34B1FEA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B215F0441B09200DC8217 = {
+			fileRef = A34B1FEB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21600441B09200DC8217 = {
+			fileRef = A34B1FEC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21610441B09200DC8217 = {
+			fileRef = A34B1FED0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21620441B09200DC8217 = {
+			fileRef = A34B1FEE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21630441B09200DC8217 = {
+			fileRef = A34B1FEF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21640441B09200DC8217 = {
+			fileRef = A34B1FF00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21650441B09200DC8217 = {
+			fileRef = A34B1FF10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21660441B09200DC8217 = {
+			fileRef = A34B1FF20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21670441B09200DC8217 = {
+			fileRef = A34B1FF30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21680441B09200DC8217 = {
+			fileRef = A34B1FF50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21690441B09200DC8217 = {
+			fileRef = A34B1FF60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B216A0441B09200DC8217 = {
+			fileRef = A34B1FF70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B216B0441B09200DC8217 = {
+			fileRef = A34B1FF80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B216C0441B09200DC8217 = {
+			fileRef = A34B1FF90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B216D0441B09200DC8217 = {
+			fileRef = A34B1FFA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B216E0441B09200DC8217 = {
+			fileRef = A34B1FFB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B216F0441B09200DC8217 = {
+			fileRef = A34B1FFE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21700441B09200DC8217 = {
+			fileRef = A34B1FFF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21710441B09200DC8217 = {
+			fileRef = A34B20010441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21720441B09200DC8217 = {
+			fileRef = A34B20020441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21730441B09200DC8217 = {
+			fileRef = A34B20040441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21740441B09200DC8217 = {
+			fileRef = A34B20060441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21750441B09200DC8217 = {
+			fileRef = A34B20070441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21760441B09200DC8217 = {
+			fileRef = A34B20080441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21770441B09200DC8217 = {
+			fileRef = A34B20090441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21780441B09200DC8217 = {
+			fileRef = A34B200A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21790441B09200DC8217 = {
+			fileRef = A34B200C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B217A0441B09200DC8217 = {
+			fileRef = A34B200D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B217B0441B09200DC8217 = {
+			fileRef = A34B200E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B217C0441B09200DC8217 = {
+			fileRef = A34B200F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B217D0441B09200DC8217 = {
+			fileRef = A34B20110441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B217E0441B09200DC8217 = {
+			fileRef = A34B20120441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B217F0441B09200DC8217 = {
+			fileRef = A34B20130441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21800441B09200DC8217 = {
+			fileRef = A34B20140441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21810441B09200DC8217 = {
+			fileRef = A34B20150441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21820441B09200DC8217 = {
+			fileRef = A34B20160441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21830441B09200DC8217 = {
+			fileRef = A34B20180441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21840441B09200DC8217 = {
+			fileRef = A34B20190441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21850441B09200DC8217 = {
+			fileRef = A34B201A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21860441B09200DC8217 = {
+			fileRef = A34B201B0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21C00441B09200DC8217 = {
+			fileRef = A34B20640441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21C10441B09200DC8217 = {
+			fileRef = A34B20650441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21C20441B09200DC8217 = {
+			fileRef = A34B20670441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21C30441B09200DC8217 = {
+			fileRef = A34B20680441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21C40441B09200DC8217 = {
+			fileRef = A34B20690441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21C50441B09200DC8217 = {
+			fileRef = A34B206A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21C60441B09200DC8217 = {
+			fileRef = A34B206C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21C70441B09200DC8217 = {
+			fileRef = A34B206D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21C80441B09200DC8217 = {
+			fileRef = A34B206E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21C90441B09200DC8217 = {
+			fileRef = A34B206F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21CA0441B09200DC8217 = {
+			fileRef = A34B20700441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21CB0441B09200DC8217 = {
+			fileRef = A34B20730441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21CC0441B09200DC8217 = {
+			fileRef = A34B20740441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21CD0441B09200DC8217 = {
+			fileRef = A34B20760441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21CE0441B09200DC8217 = {
+			fileRef = A34B20770441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21CF0441B09200DC8217 = {
+			fileRef = A34B20780441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21D00441B09200DC8217 = {
+			fileRef = A34B20790441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21D10441B09200DC8217 = {
+			fileRef = A34B207B0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21D20441B09200DC8217 = {
+			fileRef = A34B207C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21D30441B09200DC8217 = {
+			fileRef = A34B207D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21D40441B09200DC8217 = {
+			fileRef = A34B207E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21D50441B09200DC8217 = {
+			fileRef = A34B207F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21D60441B09200DC8217 = {
+			fileRef = A34B20800441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21D70441B09200DC8217 = {
+			fileRef = A34B20810441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21D80441B09200DC8217 = {
+			fileRef = A34B20820441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21D90441B09200DC8217 = {
+			fileRef = A34B20840441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21DA0441B09200DC8217 = {
+			fileRef = A34B20850441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21DB0441B09200DC8217 = {
+			fileRef = A34B20860441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21DC0441B09200DC8217 = {
+			fileRef = A34B20870441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21DD0441B09200DC8217 = {
+			fileRef = A34B20890441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21DE0441B09200DC8217 = {
+			fileRef = A34B208A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21DF0441B09200DC8217 = {
+			fileRef = A34B208B0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21E00441B09200DC8217 = {
+			fileRef = A34B208C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21E10441B09200DC8217 = {
+			fileRef = A34B208E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21E20441B09200DC8217 = {
+			fileRef = A34B208F0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21E30441B09200DC8217 = {
+			fileRef = A34B20900441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21E40441B09200DC8217 = {
+			fileRef = A34B20910441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21E50441B09200DC8217 = {
+			fileRef = A34B20920441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21E60441B09200DC8217 = {
+			fileRef = A34B20930441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21E70441B09200DC8217 = {
+			fileRef = A34B20940441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21E80441B09200DC8217 = {
+			fileRef = A34B20950441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21E90441B09200DC8217 = {
+			fileRef = A34B20960441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21EA0441B09200DC8217 = {
+			fileRef = A34B20970441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21EB0441B09200DC8217 = {
+			fileRef = A34B20990441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21EC0441B09200DC8217 = {
+			fileRef = A34B209A0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21ED0441B09200DC8217 = {
+			fileRef = A34B209B0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21EE0441B09200DC8217 = {
+			fileRef = A34B209C0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21EF0441B09200DC8217 = {
+			fileRef = A34B209D0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21F00441B09200DC8217 = {
+			fileRef = A34B209E0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21F10441B09200DC8217 = {
+			fileRef = A34B20A10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21F20441B09200DC8217 = {
+			fileRef = A34B20A20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21F30441B09200DC8217 = {
+			fileRef = A34B20A30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21F40441B09200DC8217 = {
+			fileRef = A34B20A40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21F50441B09200DC8217 = {
+			fileRef = A34B20A50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21F60441B09200DC8217 = {
+			fileRef = A34B20A60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21F70441B09200DC8217 = {
+			fileRef = A34B20A70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21F80441B09200DC8217 = {
+			fileRef = A34B20A80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21F90441B09200DC8217 = {
+			fileRef = A34B20A90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21FA0441B09200DC8217 = {
+			fileRef = A34B20AA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21FB0441B09200DC8217 = {
+			fileRef = A34B20AB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21FC0441B09200DC8217 = {
+			fileRef = A34B20AC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21FD0441B09200DC8217 = {
+			fileRef = A34B20AD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B21FE0441B09200DC8217 = {
+			fileRef = A34B20AE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B21FF0441B09200DC8217 = {
+			fileRef = A34B20AF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22000441B09200DC8217 = {
+			fileRef = A34B20B00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22010441B09200DC8217 = {
+			fileRef = A34B20B20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22020441B09200DC8217 = {
+			fileRef = A34B20B30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22030441B09200DC8217 = {
+			fileRef = A34B20B40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22040441B09200DC8217 = {
+			fileRef = A34B20B50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22050441B09200DC8217 = {
+			fileRef = A34B20B60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22060441B09200DC8217 = {
+			fileRef = A34B20B70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22070441B09200DC8217 = {
+			fileRef = A34B20B80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22080441B09200DC8217 = {
+			fileRef = A34B20B90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22090441B09200DC8217 = {
+			fileRef = A34B20BA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B220A0441B09200DC8217 = {
+			fileRef = A34B20BB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B220B0441B09200DC8217 = {
+			fileRef = A34B20BC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B220C0441B09200DC8217 = {
+			fileRef = A34B20BD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B220D0441B09200DC8217 = {
+			fileRef = A34B20BE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B220E0441B09200DC8217 = {
+			fileRef = A34B20BF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B220F0441B09200DC8217 = {
+			fileRef = A34B20C10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22100441B09200DC8217 = {
+			fileRef = A34B20C20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22110441B09200DC8217 = {
+			fileRef = A34B20C30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22120441B09200DC8217 = {
+			fileRef = A34B20C40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22130441B09200DC8217 = {
+			fileRef = A34B20C50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22140441B09200DC8217 = {
+			fileRef = A34B20C60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22150441B09200DC8217 = {
+			fileRef = A34B20C70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22160441B09200DC8217 = {
+			fileRef = A34B20C80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22170441B09200DC8217 = {
+			fileRef = A34B20C90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22180441B09200DC8217 = {
+			fileRef = A34B20CA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22190441B09200DC8217 = {
+			fileRef = A34B20CB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B221A0441B09200DC8217 = {
+			fileRef = A34B20CC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B221B0441B09200DC8217 = {
+			fileRef = A34B20CD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B221C0441B09200DC8217 = {
+			fileRef = A34B20CE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B221D0441B09200DC8217 = {
+			fileRef = A34B20CF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B221E0441B09200DC8217 = {
+			fileRef = A34B20D00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B221F0441B09200DC8217 = {
+			fileRef = A34B20D10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22200441B09200DC8217 = {
+			fileRef = A34B20D20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22210441B09200DC8217 = {
+			fileRef = A34B20D30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22220441B09200DC8217 = {
+			fileRef = A34B20D40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22230441B09200DC8217 = {
+			fileRef = A34B20D60441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22240441B09200DC8217 = {
+			fileRef = A34B20D70441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22250441B09200DC8217 = {
+			fileRef = A34B20D80441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22260441B09200DC8217 = {
+			fileRef = A34B20D90441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22270441B09200DC8217 = {
+			fileRef = A34B20DA0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22280441B09200DC8217 = {
+			fileRef = A34B20DB0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22290441B09200DC8217 = {
+			fileRef = A34B20DC0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B222A0441B09200DC8217 = {
+			fileRef = A34B20DD0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B222B0441B09200DC8217 = {
+			fileRef = A34B20DE0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B222C0441B09200DC8217 = {
+			fileRef = A34B20DF0441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B222D0441B09200DC8217 = {
+			fileRef = A34B20E00441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B222E0441B09200DC8217 = {
+			fileRef = A34B20E10441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B222F0441B09200DC8217 = {
+			fileRef = A34B20E20441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22300441B09200DC8217 = {
+			fileRef = A34B20E30441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A34B22310441B09200DC8217 = {
+			fileRef = A34B20E40441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22320441B09200DC8217 = {
+			fileRef = A34B20E50441B09200DC8217;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A36B074804386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = adler32.c;
+			path = "../../extras/zlib-1.1.4/adler32.c";
+			refType = 2;
+		};
+		A36B074904386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = compress.c;
+			path = "../../extras/zlib-1.1.4/compress.c";
+			refType = 2;
+		};
+		A36B074A04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = crc32.c;
+			path = "../../extras/zlib-1.1.4/crc32.c";
+			refType = 2;
+		};
+		A36B074B04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = deflate.c;
+			path = "../../extras/zlib-1.1.4/deflate.c";
+			refType = 2;
+		};
+		A36B074C04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = deflate.h;
+			path = "../../extras/zlib-1.1.4/deflate.h";
+			refType = 2;
+		};
+		A36B074D04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = gzio.c;
+			path = "../../extras/zlib-1.1.4/gzio.c";
+			refType = 2;
+		};
+		A36B074E04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = infblock.c;
+			path = "../../extras/zlib-1.1.4/infblock.c";
+			refType = 2;
+		};
+		A36B074F04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = infblock.h;
+			path = "../../extras/zlib-1.1.4/infblock.h";
+			refType = 2;
+		};
+		A36B075004386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = infcodes.c;
+			path = "../../extras/zlib-1.1.4/infcodes.c";
+			refType = 2;
+		};
+		A36B075104386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = infcodes.h;
+			path = "../../extras/zlib-1.1.4/infcodes.h";
+			refType = 2;
+		};
+		A36B075204386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = inffast.c;
+			path = "../../extras/zlib-1.1.4/inffast.c";
+			refType = 2;
+		};
+		A36B075304386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = inffast.h;
+			path = "../../extras/zlib-1.1.4/inffast.h";
+			refType = 2;
+		};
+		A36B075404386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = inffixed.h;
+			path = "../../extras/zlib-1.1.4/inffixed.h";
+			refType = 2;
+		};
+		A36B075504386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = inflate.c;
+			path = "../../extras/zlib-1.1.4/inflate.c";
+			refType = 2;
+		};
+		A36B075604386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = inftrees.c;
+			path = "../../extras/zlib-1.1.4/inftrees.c";
+			refType = 2;
+		};
+		A36B075704386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = inftrees.h;
+			path = "../../extras/zlib-1.1.4/inftrees.h";
+			refType = 2;
+		};
+		A36B075804386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = infutil.c;
+			path = "../../extras/zlib-1.1.4/infutil.c";
+			refType = 2;
+		};
+		A36B075904386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = infutil.h;
+			path = "../../extras/zlib-1.1.4/infutil.h";
+			refType = 2;
+		};
+		A36B075B04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = trees.c;
+			path = "../../extras/zlib-1.1.4/trees.c";
+			refType = 2;
+		};
+		A36B075C04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = trees.h;
+			path = "../../extras/zlib-1.1.4/trees.h";
+			refType = 2;
+		};
+		A36B075D04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = uncompr.c;
+			path = "../../extras/zlib-1.1.4/uncompr.c";
+			refType = 2;
+		};
+		A36B075E04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = zconf.h;
+			path = "../../extras/zlib-1.1.4/zconf.h";
+			refType = 2;
+		};
+		A36B075F04386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = zlib.h;
+			path = "../../extras/zlib-1.1.4/zlib.h";
+			refType = 2;
+		};
+		A36B076004386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = zutil.c;
+			path = "../../extras/zlib-1.1.4/zutil.c";
+			refType = 2;
+		};
+		A36B076104386C3600DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = zutil.h;
+			path = "../../extras/zlib-1.1.4/zutil.h";
+			refType = 2;
+		};
+		A36B076204386C3600DC8217 = {
+			fileRef = A36B074804386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076304386C3600DC8217 = {
+			fileRef = A36B074904386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076404386C3600DC8217 = {
+			fileRef = A36B074A04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076504386C3600DC8217 = {
+			fileRef = A36B074B04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076604386C3600DC8217 = {
+			fileRef = A36B074C04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076704386C3600DC8217 = {
+			fileRef = A36B074D04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076804386C3600DC8217 = {
+			fileRef = A36B074E04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076904386C3600DC8217 = {
+			fileRef = A36B074F04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076A04386C3600DC8217 = {
+			fileRef = A36B075004386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076B04386C3600DC8217 = {
+			fileRef = A36B075104386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076C04386C3600DC8217 = {
+			fileRef = A36B075204386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076D04386C3600DC8217 = {
+			fileRef = A36B075304386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076E04386C3600DC8217 = {
+			fileRef = A36B075404386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B076F04386C3600DC8217 = {
+			fileRef = A36B075504386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077004386C3600DC8217 = {
+			fileRef = A36B075604386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077104386C3600DC8217 = {
+			fileRef = A36B075704386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077204386C3600DC8217 = {
+			fileRef = A36B075804386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077304386C3600DC8217 = {
+			fileRef = A36B075904386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077504386C3600DC8217 = {
+			fileRef = A36B075B04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077604386C3600DC8217 = {
+			fileRef = A36B075C04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077704386C3600DC8217 = {
+			fileRef = A36B075D04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077804386C3600DC8217 = {
+			fileRef = A36B075E04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077904386C3600DC8217 = {
+			fileRef = A36B075F04386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077A04386C3600DC8217 = {
+			fileRef = A36B076004386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B077B04386C3600DC8217 = {
+			fileRef = A36B076104386C3600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3DDA13B043734B500DC8217 = {
+			children = (
+				A36B074804386C3600DC8217,
+				A36B074904386C3600DC8217,
+				A36B074A04386C3600DC8217,
+				A36B074B04386C3600DC8217,
+				A36B074C04386C3600DC8217,
+				A36B074D04386C3600DC8217,
+				A36B074E04386C3600DC8217,
+				A36B074F04386C3600DC8217,
+				A36B075004386C3600DC8217,
+				A36B075104386C3600DC8217,
+				A36B075204386C3600DC8217,
+				A36B075304386C3600DC8217,
+				A36B075404386C3600DC8217,
+				A36B075504386C3600DC8217,
+				A36B075604386C3600DC8217,
+				A36B075704386C3600DC8217,
+				A36B075804386C3600DC8217,
+				A36B075904386C3600DC8217,
+				A36B075B04386C3600DC8217,
+				A36B075C04386C3600DC8217,
+				A36B075D04386C3600DC8217,
+				A36B075E04386C3600DC8217,
+				A36B075F04386C3600DC8217,
+				A36B076004386C3600DC8217,
+				A36B076104386C3600DC8217,
+			);
+			isa = PBXGroup;
+			name = ZLib;
+			refType = 4;
+		};
+		A3DDA16F0437379700DC8217 = {
+			isa = PBXFrameworkReference;
+			name = OpenGL.framework;
+			path = /System/Library/Frameworks/OpenGL.framework;
+			refType = 0;
+		};
+		A3DDA1700437379700DC8217 = {
+			fileRef = A3DDA16F0437379700DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3DDA173043737A000DC8217 = {
+			isa = PBXFrameworkReference;
+			name = AGL.framework;
+			path = /System/Library/Frameworks/AGL.framework;
+			refType = 0;
+		};
+		A3DDA174043737A000DC8217 = {
+			fileRef = A3DDA173043737A000DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3DDA177043737AE00DC8217 = {
+			isa = PBXFrameworkReference;
+			name = DrawSprocket.framework;
+			path = /System/Library/Frameworks/DrawSprocket.framework;
+			refType = 0;
+		};
+		A3DDA178043737AE00DC8217 = {
+			fileRef = A3DDA177043737AE00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3DDA17B0437380600DC8217 = {
+			isa = PBXFrameworkReference;
+			name = QuickTime.framework;
+			path = /System/Library/Frameworks/QuickTime.framework;
+			refType = 0;
+		};
+		A3DDA17C0437380600DC8217 = {
+			fileRef = A3DDA17B0437380600DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 0867D690FE84028FC02AAC07;
+}

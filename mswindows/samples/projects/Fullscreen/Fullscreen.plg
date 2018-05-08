@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Fullscreen - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Yves\LOCALS~1\Temp\RSP40F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "D:\projects\FreeOMT/sources/omtclasses/os/mswindows/directx" /I "D:\projects\FreeOMT/sources/omtclasses/world/anim" /I "D:\projects\FreeOMT/sources/omtclasses/os/mswindows/input" /I "D:\projects\FreeOMT/sources/omtclasses/os/mswindows/window" /I "D:\projects\FreeOMT/sources/omtclasses/os/mswindows/sound" /I "D:\projects\FreeOMT/sources/omtclasses/os/mswindows/engines" /I "D:\projects\FreeOMT/sources/omtclasses/os/mswindows/application" /I "D:\projects\FreeOMT/sources/omtclasses/application" /I "D:\projects\FreeOMT/sources/omtclasses/compression" /I "D:\projects\FreeOMT/sources/omtclasses/core" /I "D:\projects\FreeOMT/sources/omtclasses/engines" /I "D:\projects\FreeOMT/sources/omtclasses/graphics" /I "D:\projects\FreeOMT/sources/omtclasses/input" /I "D:\projects\FreeOMT/sources/omtclasses/math" /I "D:\projects\FreeOMT/sources/omtclasses/messages" /I "D:\projects\FreeOMT/sources/omtclasses/os" /I "D:\projects\FreeOMT/sources/omtclasses/sound" /I "D:\projects\FreeOMT/sources/omtclasses/stream" /I "D:\projects\FreeOMT/sources/omtclasses/utility" /I "D:\projects\FreeOMT/sources/omtclasses/window" /I "D:\projects\FreeOMT/sources/omtclasses/world" /I "D:\projects\FreeOMT/sources/omtclasses/graphics/3d" /I "D:\projects\FreeOMT/sources/omtclasses/graphics/canvas" /I "D:\projects\FreeOMT/sources/omtclasses/graphics/core" /I "D:\projects\FreeOMT/sources/omtclasses/graphics/renderers" /I "D:\projects\FreeOMT/sources/omtclasses/os/opengl/graphics/canvas" /I "D:\projects\FreeOMT/sources/omtclasses/os/opengl/graphics/renderers" /I "D:\projects\FreeOMT/sources/omtclasses/stream/class" /I "D:\projects\FreeOMT/sources/omtclasses/stream/converter" /I "D:\projects\FreeOMT/sources/omtclasses/stream/core" /I "D:\projects\FreeOMT/sources/omtclasses/stream/database" /I "D:\projects\FreeOMT/sources/omtclasses/stream/formatted" /I "D:\projects\FreeOMT/sources/omtclasses/world/core" /I "D:\projects\FreeOMT/sources/omtclasses/world/element" /I "D:\projects\FreeOMT/sources/omtclasses/world/ui" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "omd_DLLImport" /Fp"Release/Fullscreen.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\projects\FreeOMT\Sources\OMTClasses\Core\OMediaDLLSupport.cpp"
+"D:\projects\FreeOMT\Sources\OMTClasses\Os\MSWindows\Application\OMediaWinMain.cpp"
+"D:\projects\FreeOMT\Sources\samples\Fullscreen.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Yves\LOCALS~1\Temp\RSP40F.tmp" 
+Creating temporary file "C:\DOCUME~1\Yves\LOCALS~1\Temp\RSP410.tmp" with contents
+[
+"D:\projects\FreeOMT/mswindows/OMTDLL/release/OMT2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Fullscreen.pdb" /machine:I386 /out:"../../Fullscreen.exe" 
+.\Release\OMediaDLLSupport.obj
+.\Release\OMediaWinMain.obj
+.\Release\Fullscreen.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Yves\LOCALS~1\Temp\RSP410.tmp"
+<h3>Output Window</h3>
+Compiling...
+OMediaDLLSupport.cpp
+OMediaWinMain.cpp
+Fullscreen.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Fullscreen.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,3413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		A33E4E35043B083A00DC8217 = {
+			buildPhases = (
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "All Samples";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				A33E4E36043B084600DC8217,
+				A33E4E37043B084600DC8217,
+				A33E4E38043B084600DC8217,
+				A33E4E39043B084600DC8217,
+				A33E4E3A043B084600DC8217,
+				A33E4E3B043B084600DC8217,
+				A33E4E3C043B084600DC8217,
+				A33E4E3D043B084600DC8217,
+				A33E4E3E043B084600DC8217,
+				A33E4E3F043B084600DC8217,
+				A33E4E40043B084600DC8217,
+				A33E4E41043B084600DC8217,
+				A33E4E42043B084600DC8217,
+				A33E4E43043B084600DC8217,
+				A33E4E44043B084600DC8217,
+				A33E4E45043B084600DC8217,
+				A33E4E46043B084600DC8217,
+				A33E4E47043B084600DC8217,
+				A33E4E48043B084600DC8217,
+			);
+			isa = PBXAggregateTarget;
+			name = "All Samples";
+			productName = "All Samples";
+		};
+		A33E4E36043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A36B08480438830800DC8217;
+		};
+		A33E4E37043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A36B086D04389DE600DC8217;
+		};
+		A33E4E38043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A36B087F0438A00500DC8217;
+		};
+		A33E4E39043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EC460439853B00DC8217;
+		};
+		A33E4E3A043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EC5C0439861F00DC8217;
+		};
+		A33E4E3B043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EC6B043986D200DC8217;
+		};
+		A33E4E3C043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EC7A0439881C00DC8217;
+		};
+		A33E4E3D043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EC980439937F00DC8217;
+		};
+		A33E4E3E043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9ECA70439942300DC8217;
+		};
+		A33E4E3F043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9ECB6043994C200DC8217;
+		};
+		A33E4E40043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9ECC50439959500DC8217;
+		};
+		A33E4E41043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9ED87043997F400DC8217;
+		};
+		A33E4E42043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9ED99043998C700DC8217;
+		};
+		A33E4E43043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EDA80439992900DC8217;
+		};
+		A33E4E44043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EDB70439BB1800DC8217;
+		};
+		A33E4E45043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EDC60439BC0100DC8217;
+		};
+		A33E4E46043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EDD30439BC0500DC8217;
+		};
+		A33E4E47043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EDE00439BC3200DC8217;
+		};
+		A33E4E48043B084600DC8217 = {
+			isa = PBXTargetDependency;
+			target = A3B9EDED0439BC3500DC8217;
+		};
+		A33E4E49043B087D00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E4A043B088C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E4B043B089B00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E4C043B08A900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E4D043B08B200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E4E043B08BC00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E4F043B08C400DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E50043B08CB00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E51043B08D000DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E52043B08D600DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E53043B08DD00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E54043B08E300DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E55043B090C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E56043B091900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E57043B091F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E58043B092500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E59043B092A00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A33E4E5A043B092F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+		A34B22350441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = 3DPaint.cpp;
+			path = ../../sources/samples/3DPaint.cpp;
+			refType = 2;
+		};
+		A34B22360441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Anim2D.cpp;
+			path = ../../sources/samples/Anim2D.cpp;
+			refType = 2;
+		};
+		A34B22370441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Buttons.cpp;
+			path = ../../sources/samples/Buttons.cpp;
+			refType = 2;
+		};
+		A34B22380441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Collision.cpp;
+			path = ../../sources/samples/Collision.cpp;
+			refType = 2;
+		};
+		A34B22390441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Cube.cpp;
+			path = ../../sources/samples/Cube.cpp;
+			refType = 2;
+		};
+		A34B223A0441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Database.cpp;
+			path = ../../sources/samples/Database.cpp;
+			refType = 2;
+		};
+		A34B223B0441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Freak.cpp;
+			path = ../../sources/samples/Freak.cpp;
+			refType = 2;
+		};
+		A34B223C0441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Fullscreen.cpp;
+			path = ../../sources/samples/Fullscreen.cpp;
+			refType = 2;
+		};
+		A34B223D0441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = HelloWorld.cpp;
+			path = ../../sources/samples/HelloWorld.cpp;
+			refType = 2;
+		};
+		A34B223E0441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = MagicHat.cpp;
+			path = ../../sources/samples/MagicHat.cpp;
+			refType = 2;
+		};
+		A34B223F0441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = MorphAnim.cpp;
+			path = ../../sources/samples/MorphAnim.cpp;
+			refType = 2;
+		};
+		A34B22400441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Particle.cpp;
+			path = ../../sources/samples/Particle.cpp;
+			refType = 2;
+		};
+		A34B22410441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PickingApp.cpp;
+			path = ../../sources/samples/PickingApp.cpp;
+			refType = 2;
+		};
+		A34B22430441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Screenshot.cpp;
+			path = ../../sources/samples/Screenshot.cpp;
+			refType = 2;
+		};
+		A34B22440441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SoftRenderer.cpp;
+			path = ../../sources/samples/SoftRenderer.cpp;
+			refType = 2;
+		};
+		A34B22450441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Sound.cpp;
+			path = ../../sources/samples/Sound.cpp;
+			refType = 2;
+		};
+		A34B22460441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Spider.cpp;
+			path = ../../sources/samples/Spider.cpp;
+			refType = 2;
+		};
+		A34B22470441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Teapot.cpp;
+			path = ../../sources/samples/Teapot.cpp;
+			refType = 2;
+		};
+		A34B22480441B3CC00DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = UI.cpp;
+			path = ../../sources/samples/UI.cpp;
+			refType = 2;
+		};
+		A34B22490441B3E900DC8217 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = OMediaMacMain.cpp;
+			path = ../../sources/OMTClasses/OS/MacOS/Application/OMediaMacMain.cpp;
+			refType = 2;
+		};
+		A34B224A0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B224B0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B224C0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B224D0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B224E0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22500441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22510441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22520441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22530441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22540441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22550441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22560441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22570441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22580441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22590441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B225A0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B225B0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B225C0441B3E900DC8217 = {
+			fileRef = A34B22490441B3E900DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B225D0441B40400DC8217 = {
+			isa = PBXFileReference;
+			name = SamplesReadMe.rtf;
+			path = ../../sources/samples/SamplesReadMe.rtf;
+			refType = 2;
+		};
+		A34B225E0441B41800DC8217 = {
+			fileRef = A34B22350441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B225F0441B41A00DC8217 = {
+			fileRef = A34B22360441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22600441B41D00DC8217 = {
+			fileRef = A34B22370441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22610441B41F00DC8217 = {
+			fileRef = A34B22380441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22620441B42100DC8217 = {
+			fileRef = A34B22390441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22640441B42A00DC8217 = {
+			fileRef = A34B223A0441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22650441B43100DC8217 = {
+			fileRef = A34B223B0441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22660441B43400DC8217 = {
+			fileRef = A34B223C0441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22670441B43600DC8217 = {
+			fileRef = A34B223D0441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22680441B43900DC8217 = {
+			fileRef = A34B223E0441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22690441B43B00DC8217 = {
+			fileRef = A34B223F0441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B226A0441B43D00DC8217 = {
+			fileRef = A34B22400441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B226B0441B44300DC8217 = {
+			fileRef = A34B22410441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B226C0441B44D00DC8217 = {
+			fileRef = A34B22430441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B226D0441B45000DC8217 = {
+			fileRef = A34B22440441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B226E0441B45200DC8217 = {
+			fileRef = A34B22450441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B226F0441B45500DC8217 = {
+			fileRef = A34B22460441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22700441B45700DC8217 = {
+			fileRef = A34B22470441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A34B22710441B45A00DC8217 = {
+			fileRef = A34B22480441B3CC00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B083E043882E900DC8217 = {
+			children = (
+				A34B225D0441B40400DC8217,
+				A36B084F0438839500DC8217,
+				A36B084C0438837A00DC8217,
+				A36B084A0438830800DC8217,
+			);
+			isa = PBXGroup;
+			refType = 4;
+		};
+		A36B0840043882E900DC8217 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		A36B0841043882E900DC8217 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		A36B0842043882E900DC8217 = {
+			buildStyles = (
+				A36B0840043882E900DC8217,
+				A36B0841043882E900DC8217,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = A36B083E043882E900DC8217;
+			productRefGroup = A36B084A0438830800DC8217;
+			projectDirPath = "";
+			targets = (
+				A33E4E35043B083A00DC8217,
+				A36B08480438830800DC8217,
+				A36B086D04389DE600DC8217,
+				A36B087F0438A00500DC8217,
+				A3B9EC460439853B00DC8217,
+				A3B9EC5C0439861F00DC8217,
+				A3B9EC6B043986D200DC8217,
+				A3B9EC7A0439881C00DC8217,
+				A3B9EC980439937F00DC8217,
+				A3B9ECA70439942300DC8217,
+				A3B9ECB6043994C200DC8217,
+				A3B9ECC50439959500DC8217,
+				A3B9ED87043997F400DC8217,
+				A3B9ED99043998C700DC8217,
+				A3B9EDA80439992900DC8217,
+				A3B9EDB70439BB1800DC8217,
+				A3B9EDC60439BC0100DC8217,
+				A3B9EDD30439BC0500DC8217,
+				A3B9EDE00439BC3200DC8217,
+				A3B9EDED0439BC3500DC8217,
+			);
+		};
+		A36B08430438830800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08440438830800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08450438830800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B224A0441B3E900DC8217,
+				A34B225E0441B41800DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08460438830800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A36B086004388A3C00DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08470438830800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08480438830800DC8217 = {
+			buildPhases = (
+				A375F0030439E3E500DC8217,
+				A36B086904389C5100DC8217,
+				A3DA76AE043AFDFB00DC8217,
+				A36B08430438830800DC8217,
+				A36B08440438830800DC8217,
+				A36B08450438830800DC8217,
+				A36B08460438830800DC8217,
+				A36B08470438830800DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = 3DPaint;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = 3DPaint;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A36B08490438830800DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>3DPaint</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A36B08490438830800DC8217 = {
+			isa = PBXApplicationReference;
+			path = 3DPaint.app;
+			refType = 3;
+		};
+		A36B084A0438830800DC8217 = {
+			children = (
+				A36B08490438830800DC8217,
+				A36B087904389DE600DC8217,
+				A36B088A0438A00500DC8217,
+				A3B9EC510439853B00DC8217,
+				A3B9EC670439861F00DC8217,
+				A3B9EC76043986D200DC8217,
+				A3B9EC840439881C00DC8217,
+				A3B9ECA30439937F00DC8217,
+				A3B9ECB20439942300DC8217,
+				A3B9ECC1043994C200DC8217,
+				A3B9ECD00439959500DC8217,
+				A3B9ED92043997F400DC8217,
+				A3B9EDA4043998C700DC8217,
+				A3B9EDB30439992900DC8217,
+				A3B9EDC20439BB1800DC8217,
+				A3B9EDD10439BC0100DC8217,
+				A3B9EDDE0439BC0500DC8217,
+				A3B9EDEB0439BC3200DC8217,
+				A3B9EDF80439BC3500DC8217,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+		A36B084C0438837A00DC8217 = {
+			children = (
+				A36B085F04388A3C00DC8217,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			refType = 4;
+		};
+		A36B084F0438839500DC8217 = {
+			children = (
+				A34B22350441B3CC00DC8217,
+				A34B22360441B3CC00DC8217,
+				A34B22370441B3CC00DC8217,
+				A34B22380441B3CC00DC8217,
+				A34B22390441B3CC00DC8217,
+				A34B223A0441B3CC00DC8217,
+				A34B223B0441B3CC00DC8217,
+				A34B223C0441B3CC00DC8217,
+				A34B223D0441B3CC00DC8217,
+				A34B223E0441B3CC00DC8217,
+				A34B223F0441B3CC00DC8217,
+				A34B22400441B3CC00DC8217,
+				A34B22410441B3CC00DC8217,
+				A34B22430441B3CC00DC8217,
+				A34B22440441B3CC00DC8217,
+				A34B22450441B3CC00DC8217,
+				A34B22460441B3CC00DC8217,
+				A34B22470441B3CC00DC8217,
+				A34B22480441B3CC00DC8217,
+				A34B22490441B3E900DC8217,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			path = "";
+			refType = 2;
+		};
+		A36B085F04388A3C00DC8217 = {
+			isa = PBXFrameworkReference;
+			name = OpenMediaToolkit.framework;
+			path = ../OMTFramework/build/OpenMediaToolkit.framework;
+			refType = 4;
+		};
+		A36B086004388A3C00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B086904389C5100DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A36B086A04389C5B00DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B086A04389C5B00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B086D04389DE600DC8217 = {
+			buildPhases = (
+				A375F0040439E3F100DC8217,
+				A36B086E04389DE600DC8217,
+				A33E4E49043B087D00DC8217,
+				A36B087004389DE600DC8217,
+				A36B087104389DE600DC8217,
+				A36B087204389DE600DC8217,
+				A36B087604389DE600DC8217,
+				A36B087804389DE600DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Anim2D;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Anim2D;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A36B087904389DE600DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Anim2D</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A36B086E04389DE600DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A36B086F04389DE600DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B086F04389DE600DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B087004389DE600DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B087104389DE600DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B087204389DE600DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B224B0441B3E900DC8217,
+				A34B225F0441B41A00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B087604389DE600DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A36B087704389DE600DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B087704389DE600DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B087804389DE600DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B087904389DE600DC8217 = {
+			isa = PBXApplicationReference;
+			path = Anim2D.app;
+			refType = 3;
+		};
+		A36B087F0438A00500DC8217 = {
+			buildPhases = (
+				A375F0050439E40400DC8217,
+				A36B08800438A00500DC8217,
+				A33E4E4A043B088C00DC8217,
+				A36B08820438A00500DC8217,
+				A36B08830438A00500DC8217,
+				A36B08840438A00500DC8217,
+				A36B08870438A00500DC8217,
+				A36B08890438A00500DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Buttons;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Buttons;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Untitled;
+			productReference = A36B088A0438A00500DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Buttons</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A36B08800438A00500DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A36B08810438A00500DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08810438A00500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B08820438A00500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08830438A00500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08840438A00500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B224C0441B3E900DC8217,
+				A34B22600441B41D00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08870438A00500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A36B08880438A00500DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B08880438A00500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A36B08890438A00500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36B088A0438A00500DC8217 = {
+			isa = PBXApplicationReference;
+			path = Buttons.app;
+			refType = 3;
+		};
+		A375EE5E0439E33900DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0030439E3E500DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0040439E3F100DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0050439E40400DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0060439E40C00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0070439E41900DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0080439E42100DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0090439E42B00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F00A0439E43400DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F00B0439E43A00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F00C0439E44100DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F00D0439E44800DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F00E0439E44F00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F00F0439E45800DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0100439E46000DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0110439E47000DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0120439E49700DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0130439E49F00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A375F0140439E4A800DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC460439853B00DC8217 = {
+			buildPhases = (
+				A375F0060439E40C00DC8217,
+				A3B9EC470439853B00DC8217,
+				A33E4E4B043B089B00DC8217,
+				A3B9EC490439853B00DC8217,
+				A3B9EC4A0439853B00DC8217,
+				A3B9EC4B0439853B00DC8217,
+				A3B9EC4E0439853B00DC8217,
+				A3B9EC500439853B00DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Collision;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Collision;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EC510439853B00DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Collision</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EC470439853B00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EC480439853B00DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC480439853B00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC490439853B00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC4A0439853B00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC4B0439853B00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B224D0441B3E900DC8217,
+				A34B22610441B41F00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC4E0439853B00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EC4F0439853B00DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC4F0439853B00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC500439853B00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC510439853B00DC8217 = {
+			isa = PBXApplicationReference;
+			path = Collision.app;
+			refType = 3;
+		};
+		A3B9EC5C0439861F00DC8217 = {
+			buildPhases = (
+				A375F0070439E41900DC8217,
+				A3B9EC5D0439861F00DC8217,
+				A33E4E4C043B08A900DC8217,
+				A3B9EC5F0439861F00DC8217,
+				A3B9EC600439861F00DC8217,
+				A3B9EC610439861F00DC8217,
+				A3B9EC640439861F00DC8217,
+				A3B9EC660439861F00DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Cube;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Cube;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EC670439861F00DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Cube</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EC5D0439861F00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EC5E0439861F00DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC5E0439861F00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC5F0439861F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC600439861F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC610439861F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B224E0441B3E900DC8217,
+				A34B22620441B42100DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC640439861F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EC650439861F00DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC650439861F00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC660439861F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC670439861F00DC8217 = {
+			isa = PBXApplicationReference;
+			path = Cube.app;
+			refType = 3;
+		};
+		A3B9EC6B043986D200DC8217 = {
+			buildPhases = (
+				A375F0080439E42100DC8217,
+				A3B9EC6C043986D200DC8217,
+				A33E4E4D043B08B200DC8217,
+				A3B9EC6E043986D200DC8217,
+				A3B9EC6F043986D200DC8217,
+				A3B9EC70043986D200DC8217,
+				A3B9EC73043986D200DC8217,
+				A3B9EC75043986D200DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Database;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Database;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EC76043986D200DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Database</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EC6C043986D200DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EC6D043986D200DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC6D043986D200DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC6E043986D200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC6F043986D200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC70043986D200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22640441B42A00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC73043986D200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EC74043986D200DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC74043986D200DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC75043986D200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC76043986D200DC8217 = {
+			isa = PBXApplicationReference;
+			path = Database.app;
+			refType = 3;
+		};
+		A3B9EC7A0439881C00DC8217 = {
+			buildPhases = (
+				A375F0090439E42B00DC8217,
+				A3B9EC7B0439881C00DC8217,
+				A33E4E4E043B08BC00DC8217,
+				A3B9EC7D0439881C00DC8217,
+				A3B9EC7E0439881C00DC8217,
+				A3B9EC7F0439881C00DC8217,
+				A3B9EC810439881C00DC8217,
+				A3B9EC830439881C00DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Freak;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Freak;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EC840439881C00DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Freak</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EC7B0439881C00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EC7C0439881C00DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC7C0439881C00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC7D0439881C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC7E0439881C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC7F0439881C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22500441B3E900DC8217,
+				A34B22650441B43100DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC810439881C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EC820439881C00DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC820439881C00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC830439881C00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC840439881C00DC8217 = {
+			isa = PBXApplicationReference;
+			path = Freak.app;
+			refType = 3;
+		};
+		A3B9EC980439937F00DC8217 = {
+			buildPhases = (
+				A375F00A0439E43400DC8217,
+				A3B9EC990439937F00DC8217,
+				A33E4E4F043B08C400DC8217,
+				A3B9EC9B0439937F00DC8217,
+				A3B9EC9C0439937F00DC8217,
+				A3B9EC9D0439937F00DC8217,
+				A3B9ECA00439937F00DC8217,
+				A3B9ECA20439937F00DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Fullscreen;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Fullscreen;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9ECA30439937F00DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Fullscreen</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EC990439937F00DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EC9A0439937F00DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC9A0439937F00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EC9B0439937F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC9C0439937F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EC9D0439937F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22510441B3E900DC8217,
+				A34B22660441B43400DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECA00439937F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9ECA10439937F00DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECA10439937F00DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECA20439937F00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECA30439937F00DC8217 = {
+			isa = PBXApplicationReference;
+			path = Fullscreen.app;
+			refType = 3;
+		};
+		A3B9ECA70439942300DC8217 = {
+			buildPhases = (
+				A375F00B0439E43A00DC8217,
+				A3B9ECA80439942300DC8217,
+				A33E4E50043B08CB00DC8217,
+				A3B9ECAA0439942300DC8217,
+				A3B9ECAB0439942300DC8217,
+				A3B9ECAC0439942300DC8217,
+				A3B9ECAF0439942300DC8217,
+				A3B9ECB10439942300DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = HelloWorld;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = HelloWorld;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9ECB20439942300DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HelloWorld</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9ECA80439942300DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9ECA90439942300DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECA90439942300DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECAA0439942300DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECAB0439942300DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECAC0439942300DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22520441B3E900DC8217,
+				A34B22670441B43600DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECAF0439942300DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9ECB00439942300DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECB00439942300DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECB10439942300DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECB20439942300DC8217 = {
+			isa = PBXApplicationReference;
+			path = HelloWorld.app;
+			refType = 3;
+		};
+		A3B9ECB6043994C200DC8217 = {
+			buildPhases = (
+				A375F00C0439E44100DC8217,
+				A3B9ECB7043994C200DC8217,
+				A33E4E51043B08D000DC8217,
+				A3B9ECB9043994C200DC8217,
+				A3B9ECBA043994C200DC8217,
+				A3B9ECBB043994C200DC8217,
+				A3B9ECBE043994C200DC8217,
+				A3B9ECC0043994C200DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MagicHat;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = MagicHat;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9ECC1043994C200DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MagicHat</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9ECB7043994C200DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9ECB8043994C200DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECB8043994C200DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECB9043994C200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECBA043994C200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECBB043994C200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22530441B3E900DC8217,
+				A34B22680441B43900DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECBE043994C200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9ECBF043994C200DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECBF043994C200DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECC0043994C200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECC1043994C200DC8217 = {
+			isa = PBXApplicationReference;
+			path = MagicHat.app;
+			refType = 3;
+		};
+		A3B9ECC50439959500DC8217 = {
+			buildPhases = (
+				A375F00D0439E44800DC8217,
+				A3B9ECC60439959500DC8217,
+				A33E4E52043B08D600DC8217,
+				A3B9ECC80439959500DC8217,
+				A3B9ECC90439959500DC8217,
+				A3B9ECCA0439959500DC8217,
+				A3B9ECCD0439959500DC8217,
+				A3B9ECCF0439959500DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MorphAnim;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = MorphAnim;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9ECD00439959500DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MorphAnim</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9ECC60439959500DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9ECC70439959500DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECC70439959500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECC80439959500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECC90439959500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECCA0439959500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22540441B3E900DC8217,
+				A34B22690441B43B00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECCD0439959500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9ECCE0439959500DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECCE0439959500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ECCF0439959500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ECD00439959500DC8217 = {
+			isa = PBXApplicationReference;
+			path = MorphAnim.app;
+			refType = 3;
+		};
+		A3B9ED87043997F400DC8217 = {
+			buildPhases = (
+				A375F00E0439E44F00DC8217,
+				A3B9ED88043997F400DC8217,
+				A33E4E53043B08DD00DC8217,
+				A3B9ED8A043997F400DC8217,
+				A3B9ED8B043997F400DC8217,
+				A3B9ED8C043997F400DC8217,
+				A3B9ED8F043997F400DC8217,
+				A3B9ED91043997F400DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Particle;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Particle;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9ED92043997F400DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Particle</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9ED88043997F400DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9ED89043997F400DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED89043997F400DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ED8A043997F400DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED8B043997F400DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED8C043997F400DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22550441B3E900DC8217,
+				A34B226A0441B43D00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED8F043997F400DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9ED90043997F400DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED90043997F400DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ED91043997F400DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED92043997F400DC8217 = {
+			isa = PBXApplicationReference;
+			path = Particle.app;
+			refType = 3;
+		};
+		A3B9ED99043998C700DC8217 = {
+			buildPhases = (
+				A375EE5E0439E33900DC8217,
+				A3B9ED9A043998C700DC8217,
+				A33E4E54043B08E300DC8217,
+				A3B9ED9C043998C700DC8217,
+				A3B9ED9D043998C700DC8217,
+				A3B9ED9E043998C700DC8217,
+				A3B9EDA1043998C700DC8217,
+				A3B9EDA3043998C700DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = PickingApp;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = PickinApp;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDA4043998C700DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>PickingApp</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9ED9A043998C700DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9ED9B043998C700DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED9B043998C700DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9ED9C043998C700DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED9D043998C700DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9ED9E043998C700DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22560441B3E900DC8217,
+				A34B226B0441B44300DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDA1043998C700DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDA2043998C700DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDA2043998C700DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDA3043998C700DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDA4043998C700DC8217 = {
+			isa = PBXApplicationReference;
+			path = PickingApp.app;
+			refType = 3;
+		};
+		A3B9EDA80439992900DC8217 = {
+			buildPhases = (
+				A375F00F0439E45800DC8217,
+				A3B9EDA90439992900DC8217,
+				A33E4E55043B090C00DC8217,
+				A3B9EDAB0439992900DC8217,
+				A3B9EDAC0439992900DC8217,
+				A3B9EDAD0439992900DC8217,
+				A3B9EDB00439992900DC8217,
+				A3B9EDB20439992900DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Screenshot;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Screenshot;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDB30439992900DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Screenshot</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EDA90439992900DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EDAA0439992900DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDAA0439992900DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDAB0439992900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDAC0439992900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDAD0439992900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22570441B3E900DC8217,
+				A34B226C0441B44D00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDB00439992900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDB10439992900DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDB10439992900DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDB20439992900DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDB30439992900DC8217 = {
+			isa = PBXApplicationReference;
+			path = Screenshot.app;
+			refType = 3;
+		};
+		A3B9EDB70439BB1800DC8217 = {
+			buildPhases = (
+				A375F0100439E46000DC8217,
+				A3B9EDB80439BB1800DC8217,
+				A33E4E56043B091900DC8217,
+				A3B9EDBA0439BB1800DC8217,
+				A3B9EDBB0439BB1800DC8217,
+				A3B9EDBC0439BB1800DC8217,
+				A3B9EDBF0439BB1800DC8217,
+				A3B9EDC10439BB1800DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = SoftRenderer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = SoftRenderer;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDC20439BB1800DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SoftRenderer</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EDB80439BB1800DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EDB90439BB1800DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDB90439BB1800DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDBA0439BB1800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDBB0439BB1800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDBC0439BB1800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22580441B3E900DC8217,
+				A34B226D0441B45000DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDBF0439BB1800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDC00439BB1800DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDC00439BB1800DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDC10439BB1800DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDC20439BB1800DC8217 = {
+			isa = PBXApplicationReference;
+			path = SoftRenderer.app;
+			refType = 3;
+		};
+		A3B9EDC60439BC0100DC8217 = {
+			buildPhases = (
+				A375F0110439E47000DC8217,
+				A3B9EDC70439BC0100DC8217,
+				A33E4E57043B091F00DC8217,
+				A3B9EDC90439BC0100DC8217,
+				A3B9EDCA0439BC0100DC8217,
+				A3B9EDCB0439BC0100DC8217,
+				A3B9EDCE0439BC0100DC8217,
+				A3B9EDD00439BC0100DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Sound;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Sound;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDD10439BC0100DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Sound</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EDC70439BC0100DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EDC80439BC0100DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDC80439BC0100DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDC90439BC0100DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDCA0439BC0100DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDCB0439BC0100DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B22590441B3E900DC8217,
+				A34B226E0441B45200DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDCE0439BC0100DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDCF0439BC0100DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDCF0439BC0100DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDD00439BC0100DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDD10439BC0100DC8217 = {
+			isa = PBXApplicationReference;
+			path = Sound.app;
+			refType = 3;
+		};
+		A3B9EDD30439BC0500DC8217 = {
+			buildPhases = (
+				A375F0120439E49700DC8217,
+				A3B9EDD40439BC0500DC8217,
+				A33E4E58043B092500DC8217,
+				A3B9EDD60439BC0500DC8217,
+				A3B9EDD70439BC0500DC8217,
+				A3B9EDD80439BC0500DC8217,
+				A3B9EDDB0439BC0500DC8217,
+				A3B9EDDD0439BC0500DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Spider;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Spider;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDDE0439BC0500DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Spider</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EDD40439BC0500DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EDD50439BC0500DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDD50439BC0500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDD60439BC0500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDD70439BC0500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDD80439BC0500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B225A0441B3E900DC8217,
+				A34B226F0441B45500DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDDB0439BC0500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDDC0439BC0500DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDDC0439BC0500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDDD0439BC0500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDDE0439BC0500DC8217 = {
+			isa = PBXApplicationReference;
+			path = Spider.app;
+			refType = 3;
+		};
+		A3B9EDE00439BC3200DC8217 = {
+			buildPhases = (
+				A375F0130439E49F00DC8217,
+				A3B9EDE10439BC3200DC8217,
+				A33E4E59043B092A00DC8217,
+				A3B9EDE30439BC3200DC8217,
+				A3B9EDE40439BC3200DC8217,
+				A3B9EDE50439BC3200DC8217,
+				A3B9EDE80439BC3200DC8217,
+				A3B9EDEA0439BC3200DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Teapot;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Teapot;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDEB0439BC3200DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Teapot</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EDE10439BC3200DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EDE20439BC3200DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDE20439BC3200DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDE30439BC3200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDE40439BC3200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDE50439BC3200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B225B0441B3E900DC8217,
+				A34B22700441B45700DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDE80439BC3200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDE90439BC3200DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDE90439BC3200DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDEA0439BC3200DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDEB0439BC3200DC8217 = {
+			isa = PBXApplicationReference;
+			path = Teapot.app;
+			refType = 3;
+		};
+		A3B9EDED0439BC3500DC8217 = {
+			buildPhases = (
+				A375F0140439E4A800DC8217,
+				A3B9EDEE0439BC3500DC8217,
+				A33E4E5A043B092F00DC8217,
+				A3B9EDF00439BC3500DC8217,
+				A3B9EDF10439BC3500DC8217,
+				A3B9EDF20439BC3500DC8217,
+				A3B9EDF50439BC3500DC8217,
+				A3B9EDF70439BC3500DC8217,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../OMTFramework/build;
+				HEADER_SEARCH_PATHS = ../OMTFramework/build/OpenMediaToolkit.framework/headers;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UI;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = UI;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Untitled;
+			productReference = A3B9EDF80439BC3500DC8217;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>UI</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		A3B9EDEE0439BC3500DC8217 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B9EDEF0439BC3500DC8217,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDEF0439BC3500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDF00439BC3500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDF10439BC3500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDF20439BC3500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A34B225C0441B3E900DC8217,
+				A34B22710441B45A00DC8217,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDF50439BC3500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+				A3B9EDF60439BC3500DC8217,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDF60439BC3500DC8217 = {
+			fileRef = A36B085F04388A3C00DC8217;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3B9EDF70439BC3500DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9EDF80439BC3500DC8217 = {
+			isa = PBXApplicationReference;
+			path = UI.app;
+			refType = 3;
+		};
+		A3DA76AE043AFDFB00DC8217 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"-- Delete OMT framework headers - Not required anymore for runtime...\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Headers\"\nrm -dr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks/OpenMediaToolkit.framework/Versions/Current/Headers\"\necho \"-- Done\"";
+		};
+	};
+	rootObject = A36B0842043882E900DC8217;
+}

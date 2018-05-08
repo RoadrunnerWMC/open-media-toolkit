@@ -1,0 +1,37 @@
+// ****************************************************************
+// Open Media Toolkit Project: %BaseProject%App.h
+// ****************************************************************
+
+#pragma once
+#ifndef %BaseProject%App_H
+#define %BaseProject%App_H
+
+#include "OMediaApplication.h"
+#include "OMediaSingleWindow.h"
+#include "OMediaMonitorMap.h"
+#include "OMediaRendererDef.h"
+#include "OMediaWorld.h"
+#include "OMediaViewPort.h"
+#include "OMediaLayer.h"
+
+
+class %BaseProject%App : public OMediaApplication
+{
+public:
+
+	%BaseProject%App();
+	virtual ~%BaseProject%App();
+
+	void init_display(void);
+	void init_world(void);
+
+	OMediaMonitorMap		*monitors;
+	OMediaSingleWindow		*window;
+
+	OMediaWorld				*world;
+	OMediaViewPort			*viewport;
+	OMediaLayer				*layer;
+};
+
+
+#endif

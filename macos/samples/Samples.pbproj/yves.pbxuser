@@ -1,0 +1,2190 @@
+// !$*UTF8*$!
+{
+	A33E4E35043B083A00DC8217 = {
+		activeExec = 0;
+	};
+	A34B22760441BA5000DC8217 = {
+		fRef = A34B22440441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "SoftRenderer.cpp: 9";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 0;
+	};
+	A34B22780441BA5000DC8217 = {
+		fRef = A34B223A0441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "Database.cpp: __GNUC__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1501;
+		vrLoc = 0;
+	};
+	A34B227A0441BA5000DC8217 = {
+		fRef = A34B22350441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "3DPaint.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1555;
+		vrLoc = 0;
+	};
+	A34B227B0441BA5000DC8217 = {
+		fRef = A34B225D0441B40400DC8217;
+		isa = PBXTextBookmark;
+		name = "SamplesReadMe.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	A34B227C0441BA5000DC8217 = {
+		fRef = A34B22440441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "SoftRenderer.cpp: 9";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 0;
+	};
+	A34B227D0441BA5000DC8217 = {
+		fRef = A34B225D0441B40400DC8217;
+		isa = PBXTextBookmark;
+		name = "SamplesReadMe.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	A34B227E0441BA5000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A34B227F0441BA5000DC8217 = {
+		fRef = A34B223A0441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "Database.cpp: __GNUC__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1501;
+		vrLoc = 0;
+	};
+	A36B0842043882E900DC8217 = {
+		activeBuildStyle = A36B0841043882E900DC8217;
+		activeExecutable = A36B084B0438830800DC8217;
+		activeTarget = A33E4E35043B083A00DC8217;
+		addToTargets = (
+		);
+		breakpoints = (
+		);
+		executables = (
+			A36B084B0438830800DC8217,
+			A36B087A04389DE600DC8217,
+			A36B088B0438A00500DC8217,
+			A3B9EC520439853B00DC8217,
+			A3B9EC680439861F00DC8217,
+			A3B9EC77043986D200DC8217,
+			A3B9EC850439881C00DC8217,
+			A3B9ECA40439937F00DC8217,
+			A3B9ECB30439942300DC8217,
+			A3B9ECC2043994C200DC8217,
+			A3B9ECD10439959500DC8217,
+			A3B9ED93043997F400DC8217,
+			A3B9EDA5043998C700DC8217,
+			A3B9EDB40439992900DC8217,
+			A3B9EDC30439BB1800DC8217,
+			A3B9EDD20439BC0100DC8217,
+			A3B9EDDF0439BC0500DC8217,
+			A3B9EDEC0439BC3200DC8217,
+			A3B9EDF90439BC3500DC8217,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 71503697;
+			"PBXTemplateGeometry-F5314676015831810DCA290F" = {
+				ContentSize = "{685, 434}";
+				LeftSlideOut = {
+					Collapsed = NO;
+					Frame = "{{0, 23}, {685, 411}}";
+					Split0 = {
+						ActiveTab = 2;
+						ActiveTabName = PBXBuildResultsModule;
+						Collapsed = NO;
+						Frame = "{{0, 0}, {685, 411}}";
+						Split0 = {
+							Frame = "{{0, 301}, {685, 110}}";
+						};
+						SplitCount = 1;
+						Tab0 = {
+							Frame = "{{0, 0}, {952, 321}}";
+						};
+						Tab1 = {
+							Debugger = {
+								Collapsed = NO;
+								Frame = "{{0, 0}, {781, 452}}";
+								Split0 = {
+									Frame = "{{0, 24}, {781, 428}}";
+									Split0 = {
+										Frame = "{{0, 0}, {383, 428}}";
+									};
+									Split1 = {
+										DebugVariablesTableConfiguration = (
+											Name,
+											123,
+											Value,
+											85,
+											Summary,
+											155.123,
+										);
+										Frame = "{{392, 0}, {389, 428}}";
+									};
+									SplitCount = 2;
+								};
+								SplitCount = 1;
+								Tab0 = {
+									Frame = "{{0, 0}, {100, 50}}";
+								};
+								Tab1 = {
+									Frame = "{{0, 0}, {100, 50}}";
+								};
+								TabCount = 2;
+								TabsVisible = YES;
+							};
+							Frame = "{{0, 0}, {781, 452}}";
+							LauncherConfigVersion = 7;
+						};
+						Tab2 = {
+							Frame = "{{0, 0}, {685, 215}}";
+							LauncherConfigVersion = 3;
+							Runner = {
+								Frame = "{{0, 0}, {685, 215}}";
+							};
+						};
+						Tab3 = {
+							BuildMessageFrame = "{{0, 0}, {687, 262}}";
+							BuildTranscriptFrame = "{{0, 271}, {687, 2}}";
+							BuildTranscriptFrameExpanded = YES;
+							Frame = "{{0, 0}, {685, 295}}";
+						};
+						Tab4 = {
+							Frame = "{{0, 0}, {612, 295}}";
+						};
+						TabCount = 5;
+						TabsVisible = NO;
+					};
+					SplitCount = 1;
+					Tab0 = {
+						Frame = "{{0, 0}, {300, 533}}";
+						GroupTreeTableConfiguration = (
+							TargetStatusColumn,
+							18,
+							MainColumn,
+							267,
+						);
+					};
+					Tab1 = {
+						ClassesFrame = "{{0, 0}, {280, 398}}";
+						ClassesTreeTableConfiguration = (
+							PBXBookColumnIdentifier,
+							20,
+							PBXClassColumnIdentifier,
+							237,
+						);
+						Frame = "{{0, 0}, {278, 659}}";
+						MembersFrame = "{{0, 407}, {280, 252}}";
+						MembersTreeTableConfiguration = (
+							PBXBookColumnIdentifier,
+							20,
+							PBXMethodColumnIdentifier,
+							236,
+						);
+					};
+					Tab2 = {
+						Frame = "{{0, 0}, {200, 100}}";
+					};
+					Tab3 = {
+						Frame = "{{0, 0}, {200, 100}}";
+						TargetTableConfiguration = (
+							ActiveObject,
+							16,
+							ObjectNames,
+							202.296,
+						);
+					};
+					Tab4 = {
+						BreakpointsTreeTableConfiguration = (
+							breakpointColumn,
+							197,
+							enabledColumn,
+							31,
+						);
+						Frame = "{{0, 0}, {250, 100}}";
+					};
+					TabCount = 5;
+					TabsVisible = NO;
+				};
+				NavBarShownByDefault = YES;
+				StatusViewVisible = YES;
+				Template = F5314676015831810DCA290F;
+				ToolbarVisible = YES;
+				WindowLocation = "{7, 250}";
+			};
+			PBXWorkspaceContents = (
+				{
+					LeftSlideOut = {
+						Split0 = {
+							Split0 = {
+								NavContent0 = {
+									bookmark = A3FEDBC30443127C00DC8217;
+									history = (
+										A36B08D40438A41A00DC8217,
+										A3B9EE390439C28000DC8217,
+										A375F1CB0439F53200DC8217,
+										A34B22760441BA5000DC8217,
+										A34B22780441BA5000DC8217,
+										A3FEDB990443127C00DC8217,
+										A3FEDB9A0443127C00DC8217,
+										A3FEDB9B0443127C00DC8217,
+										A3FEDB9C0443127C00DC8217,
+										A3FEDB9D0443127C00DC8217,
+										A3FEDB9E0443127C00DC8217,
+										A3FEDB9F0443127C00DC8217,
+										A3FEDBA00443127C00DC8217,
+										A3FEDBA10443127C00DC8217,
+										A3FEDBA20443127C00DC8217,
+										A3FEDBA30443127C00DC8217,
+										A3FEDBA40443127C00DC8217,
+										A3FEDBA50443127C00DC8217,
+										A3FEDBA60443127C00DC8217,
+										A3FEDBA70443127C00DC8217,
+										A3FEDBA80443127C00DC8217,
+										A3FEDBA90443127C00DC8217,
+										A3FEDBAA0443127C00DC8217,
+										A3FEDBAB0443127C00DC8217,
+										A3FEDBAC0443127C00DC8217,
+										A3FEDBAD0443127C00DC8217,
+									);
+									prevStack = (
+										A36B08DC0438A41A00DC8217,
+										A36B08DE0438A41A00DC8217,
+										A36B08DF0438A41A00DC8217,
+										A36B08E00438A41A00DC8217,
+										A36B08E10438A41A00DC8217,
+										A36B08E20438A41A00DC8217,
+										A36B08E30438A41A00DC8217,
+										A36B08E60438A41A00DC8217,
+										A36B08E80438A41A00DC8217,
+										A36B08EC0438A41A00DC8217,
+										A36B08F00438A41A00DC8217,
+										A36B08F10438A41A00DC8217,
+										A36B08F60438A41A00DC8217,
+										A36B08F70438A41A00DC8217,
+										A3B9EE4D0439C28000DC8217,
+										A3B9EE4E0439C28000DC8217,
+										A3B9EE4F0439C28000DC8217,
+										A3B9EE510439C28000DC8217,
+										A3B9EE550439C28000DC8217,
+										A3B9EE570439C28000DC8217,
+										A3B9EE590439C28000DC8217,
+										A3B9EE5A0439C28000DC8217,
+										A3B9EE5B0439C28000DC8217,
+										A3B9EE5C0439C28000DC8217,
+										A3B9EE5E0439C28000DC8217,
+										A3B9EE5F0439C28000DC8217,
+										A3B9EE600439C28000DC8217,
+										A3B9EE610439C28000DC8217,
+										A3B9EE620439C28000DC8217,
+										A3B9EE660439C28000DC8217,
+										A3B9EE680439C28000DC8217,
+										A3B9EE690439C28000DC8217,
+										A3B9EE6B0439C28000DC8217,
+										A3B9EE6C0439C28000DC8217,
+										A3B9EE6D0439C28000DC8217,
+										A3B9EE6E0439C28000DC8217,
+										A3B9EE6F0439C28000DC8217,
+										A3B9EE700439C28000DC8217,
+										A3B9EE710439C28000DC8217,
+										A3B9EE720439C28000DC8217,
+										A375F1EE0439F53200DC8217,
+										A375F1F10439F53200DC8217,
+										A375F1F20439F53200DC8217,
+										A375F1F30439F53200DC8217,
+										A375F1F50439F53200DC8217,
+										A375F1F60439F53200DC8217,
+										A375F1F70439F53200DC8217,
+										A375F1F80439F53200DC8217,
+										A375F1F90439F53200DC8217,
+										A375F1FA0439F53200DC8217,
+										A375F1FB0439F53200DC8217,
+										A375F1FC0439F53200DC8217,
+										A375F1FD0439F53200DC8217,
+										A375F1FE0439F53200DC8217,
+										A375F1FF0439F53200DC8217,
+										A375F2000439F53200DC8217,
+										A375F2010439F53200DC8217,
+										A375F2020439F53200DC8217,
+										A375F2030439F53200DC8217,
+										A375F2040439F53200DC8217,
+										A375F2050439F53200DC8217,
+										A375F2060439F53200DC8217,
+										A375F2070439F53200DC8217,
+										A375F2080439F53200DC8217,
+										A375F2090439F53200DC8217,
+										A375F20A0439F53200DC8217,
+										A375F20C0439F53200DC8217,
+										A34B227A0441BA5000DC8217,
+										A34B227B0441BA5000DC8217,
+										A34B227C0441BA5000DC8217,
+										A34B227D0441BA5000DC8217,
+										A34B227E0441BA5000DC8217,
+										A34B227F0441BA5000DC8217,
+										A3FEDBAE0443127C00DC8217,
+										A3FEDBAF0443127C00DC8217,
+										A3FEDBB00443127C00DC8217,
+										A3FEDBB10443127C00DC8217,
+										A3FEDBB20443127C00DC8217,
+										A3FEDBB30443127C00DC8217,
+										A3FEDBB40443127C00DC8217,
+										A3FEDBB50443127C00DC8217,
+										A3FEDBB60443127C00DC8217,
+										A3FEDBB70443127C00DC8217,
+										A3FEDBB80443127C00DC8217,
+										A3FEDBB90443127C00DC8217,
+										A3FEDBBA0443127C00DC8217,
+										A3FEDBBB0443127C00DC8217,
+										A3FEDBBC0443127C00DC8217,
+										A3FEDBBD0443127C00DC8217,
+										A3FEDBBE0443127C00DC8217,
+										A3FEDBBF0443127C00DC8217,
+										A3FEDBC00443127C00DC8217,
+										A3FEDBC10443127C00DC8217,
+										A3FEDBC20443127C00DC8217,
+									);
+								};
+								NavCount = 1;
+								NavGeometry0 = {
+									Frame = "{{0, 0}, {635, 546}}";
+									NavBarVisible = YES;
+								};
+								NavSplitVertical = NO;
+							};
+							SplitCount = 1;
+							Tab1 = {
+								Debugger = {
+									Split0 = {
+										SplitCount = 2;
+									};
+									SplitCount = 1;
+									TabCount = 2;
+								};
+								LauncherConfigVersion = 7;
+							};
+							Tab2 = {
+								LauncherConfigVersion = 3;
+								Runner = {
+								};
+							};
+							TabCount = 5;
+						};
+						SplitCount = 1;
+						Tab1 = {
+							OptionsSetName = "Hierarchy, all classes";
+						};
+						TabCount = 5;
+					};
+				},
+			);
+			PBXWorkspaceGeometries = (
+				{
+					ContentSize = "{919, 569}";
+					LeftSlideOut = {
+						ActiveTab = 0;
+						ActiveTabName = PBXGroupTreeModule;
+						Collapsed = NO;
+						Frame = "{{0, 23}, {919, 546}}";
+						Split0 = {
+							Collapsed = NO;
+							Frame = "{{284, 0}, {635, 546}}";
+							Split0 = {
+								Frame = "{{0, 0}, {635, 546}}";
+							};
+							SplitCount = 1;
+							Tab0 = {
+								Frame = "{{0, 0}, {681, 289}}";
+							};
+							Tab1 = {
+								Debugger = {
+									Collapsed = NO;
+									Frame = "{{0, 0}, {681, 150}}";
+									Split0 = {
+										Frame = "{{0, 24}, {681, 126}}";
+										Split0 = {
+											Frame = "{{0, 0}, {333, 126}}";
+										};
+										Split1 = {
+											DebugVariablesTableConfiguration = (
+												Name,
+												123,
+												Value,
+												85,
+												Summary,
+												105.123,
+											);
+											Frame = "{{342, 0}, {339, 126}}";
+										};
+										SplitCount = 2;
+									};
+									SplitCount = 1;
+									Tab0 = {
+										Frame = "{{0, 0}, {100, 50}}";
+									};
+									Tab1 = {
+										Frame = "{{0, 0}, {100, 50}}";
+									};
+									TabCount = 2;
+									TabsVisible = YES;
+								};
+								Frame = "{{0, 0}, {681, 120}}";
+								LauncherConfigVersion = 7;
+							};
+							Tab2 = {
+								Frame = "{{0, 0}, {681, 234}}";
+								LauncherConfigVersion = 3;
+								Runner = {
+									Frame = "{{0, 0}, {681, 234}}";
+								};
+							};
+							Tab3 = {
+								BuildMessageFrame = "{{0, 0}, {683, 205}}";
+								BuildTranscriptFrame = "{{0, 214}, {683, 2}}";
+								BuildTranscriptFrameExpanded = YES;
+								Frame = "{{0, 0}, {681, 238}}";
+							};
+							Tab4 = {
+								Frame = "{{0, 0}, {612, 295}}";
+							};
+							TabCount = 5;
+							TabsVisible = NO;
+						};
+						SplitCount = 1;
+						Tab0 = {
+							Frame = "{{0, 0}, {260, 546}}";
+							GroupTreeTableConfiguration = (
+								TargetStatusColumn,
+								18,
+								MainColumn,
+								227,
+							);
+						};
+						Tab1 = {
+							ClassesFrame = "{{0, 0}, {250, 329}}";
+							ClassesTreeTableConfiguration = (
+								PBXBookColumnIdentifier,
+								20,
+								PBXClassColumnIdentifier,
+								207,
+							);
+							Frame = "{{0, 0}, {248, 548}}";
+							MembersFrame = "{{0, 338}, {250, 210}}";
+							MembersTreeTableConfiguration = (
+								PBXBookColumnIdentifier,
+								20,
+								PBXMethodColumnIdentifier,
+								206,
+							);
+						};
+						Tab2 = {
+							Frame = "{{0, 0}, {217, 548}}";
+						};
+						Tab3 = {
+							Frame = "{{0, 0}, {239, 546}}";
+							TargetTableConfiguration = (
+								ActiveObject,
+								16,
+								ObjectNames,
+								206.296,
+							);
+						};
+						Tab4 = {
+							BreakpointsTreeTableConfiguration = (
+								breakpointColumn,
+								197,
+								enabledColumn,
+								31,
+							);
+							Frame = "{{0, 0}, {250, 554}}";
+						};
+						TabCount = 5;
+						TabsVisible = YES;
+					};
+					NavBarShownByDefault = YES;
+					StatusViewVisible = YES;
+					Template = 64ABBB4501FA494900185B06;
+					ToolbarVisible = YES;
+					WindowLocation = "{5, 92}";
+				},
+			);
+			PBXWorkspaceStateSaveDate = 71503697;
+		};
+		perUserProjectItems = {
+			A34B22760441BA5000DC8217 = A34B22760441BA5000DC8217;
+			A34B22780441BA5000DC8217 = A34B22780441BA5000DC8217;
+			A34B227A0441BA5000DC8217 = A34B227A0441BA5000DC8217;
+			A34B227B0441BA5000DC8217 = A34B227B0441BA5000DC8217;
+			A34B227C0441BA5000DC8217 = A34B227C0441BA5000DC8217;
+			A34B227D0441BA5000DC8217 = A34B227D0441BA5000DC8217;
+			A34B227E0441BA5000DC8217 = A34B227E0441BA5000DC8217;
+			A34B227F0441BA5000DC8217 = A34B227F0441BA5000DC8217;
+			A36B08D40438A41A00DC8217 = A36B08D40438A41A00DC8217;
+			A36B08DC0438A41A00DC8217 = A36B08DC0438A41A00DC8217;
+			A36B08DE0438A41A00DC8217 = A36B08DE0438A41A00DC8217;
+			A36B08DF0438A41A00DC8217 = A36B08DF0438A41A00DC8217;
+			A36B08E00438A41A00DC8217 = A36B08E00438A41A00DC8217;
+			A36B08E10438A41A00DC8217 = A36B08E10438A41A00DC8217;
+			A36B08E20438A41A00DC8217 = A36B08E20438A41A00DC8217;
+			A36B08E30438A41A00DC8217 = A36B08E30438A41A00DC8217;
+			A36B08E60438A41A00DC8217 = A36B08E60438A41A00DC8217;
+			A36B08E80438A41A00DC8217 = A36B08E80438A41A00DC8217;
+			A36B08EC0438A41A00DC8217 = A36B08EC0438A41A00DC8217;
+			A36B08F00438A41A00DC8217 = A36B08F00438A41A00DC8217;
+			A36B08F10438A41A00DC8217 = A36B08F10438A41A00DC8217;
+			A36B08F60438A41A00DC8217 = A36B08F60438A41A00DC8217;
+			A36B08F70438A41A00DC8217 = A36B08F70438A41A00DC8217;
+			A375F1CB0439F53200DC8217 = A375F1CB0439F53200DC8217;
+			A375F1EE0439F53200DC8217 = A375F1EE0439F53200DC8217;
+			A375F1F10439F53200DC8217 = A375F1F10439F53200DC8217;
+			A375F1F20439F53200DC8217 = A375F1F20439F53200DC8217;
+			A375F1F30439F53200DC8217 = A375F1F30439F53200DC8217;
+			A375F1F50439F53200DC8217 = A375F1F50439F53200DC8217;
+			A375F1F60439F53200DC8217 = A375F1F60439F53200DC8217;
+			A375F1F70439F53200DC8217 = A375F1F70439F53200DC8217;
+			A375F1F80439F53200DC8217 = A375F1F80439F53200DC8217;
+			A375F1F90439F53200DC8217 = A375F1F90439F53200DC8217;
+			A375F1FA0439F53200DC8217 = A375F1FA0439F53200DC8217;
+			A375F1FB0439F53200DC8217 = A375F1FB0439F53200DC8217;
+			A375F1FC0439F53200DC8217 = A375F1FC0439F53200DC8217;
+			A375F1FD0439F53200DC8217 = A375F1FD0439F53200DC8217;
+			A375F1FE0439F53200DC8217 = A375F1FE0439F53200DC8217;
+			A375F1FF0439F53200DC8217 = A375F1FF0439F53200DC8217;
+			A375F2000439F53200DC8217 = A375F2000439F53200DC8217;
+			A375F2010439F53200DC8217 = A375F2010439F53200DC8217;
+			A375F2020439F53200DC8217 = A375F2020439F53200DC8217;
+			A375F2030439F53200DC8217 = A375F2030439F53200DC8217;
+			A375F2040439F53200DC8217 = A375F2040439F53200DC8217;
+			A375F2050439F53200DC8217 = A375F2050439F53200DC8217;
+			A375F2060439F53200DC8217 = A375F2060439F53200DC8217;
+			A375F2070439F53200DC8217 = A375F2070439F53200DC8217;
+			A375F2080439F53200DC8217 = A375F2080439F53200DC8217;
+			A375F2090439F53200DC8217 = A375F2090439F53200DC8217;
+			A375F20A0439F53200DC8217 = A375F20A0439F53200DC8217;
+			A375F20C0439F53200DC8217 = A375F20C0439F53200DC8217;
+			A3B9EE390439C28000DC8217 = A3B9EE390439C28000DC8217;
+			A3B9EE4D0439C28000DC8217 = A3B9EE4D0439C28000DC8217;
+			A3B9EE4E0439C28000DC8217 = A3B9EE4E0439C28000DC8217;
+			A3B9EE4F0439C28000DC8217 = A3B9EE4F0439C28000DC8217;
+			A3B9EE510439C28000DC8217 = A3B9EE510439C28000DC8217;
+			A3B9EE550439C28000DC8217 = A3B9EE550439C28000DC8217;
+			A3B9EE570439C28000DC8217 = A3B9EE570439C28000DC8217;
+			A3B9EE590439C28000DC8217 = A3B9EE590439C28000DC8217;
+			A3B9EE5A0439C28000DC8217 = A3B9EE5A0439C28000DC8217;
+			A3B9EE5B0439C28000DC8217 = A3B9EE5B0439C28000DC8217;
+			A3B9EE5C0439C28000DC8217 = A3B9EE5C0439C28000DC8217;
+			A3B9EE5E0439C28000DC8217 = A3B9EE5E0439C28000DC8217;
+			A3B9EE5F0439C28000DC8217 = A3B9EE5F0439C28000DC8217;
+			A3B9EE600439C28000DC8217 = A3B9EE600439C28000DC8217;
+			A3B9EE610439C28000DC8217 = A3B9EE610439C28000DC8217;
+			A3B9EE620439C28000DC8217 = A3B9EE620439C28000DC8217;
+			A3B9EE660439C28000DC8217 = A3B9EE660439C28000DC8217;
+			A3B9EE680439C28000DC8217 = A3B9EE680439C28000DC8217;
+			A3B9EE690439C28000DC8217 = A3B9EE690439C28000DC8217;
+			A3B9EE6B0439C28000DC8217 = A3B9EE6B0439C28000DC8217;
+			A3B9EE6C0439C28000DC8217 = A3B9EE6C0439C28000DC8217;
+			A3B9EE6D0439C28000DC8217 = A3B9EE6D0439C28000DC8217;
+			A3B9EE6E0439C28000DC8217 = A3B9EE6E0439C28000DC8217;
+			A3B9EE6F0439C28000DC8217 = A3B9EE6F0439C28000DC8217;
+			A3B9EE700439C28000DC8217 = A3B9EE700439C28000DC8217;
+			A3B9EE710439C28000DC8217 = A3B9EE710439C28000DC8217;
+			A3B9EE720439C28000DC8217 = A3B9EE720439C28000DC8217;
+			A3FEDB990443127C00DC8217 = A3FEDB990443127C00DC8217;
+			A3FEDB9A0443127C00DC8217 = A3FEDB9A0443127C00DC8217;
+			A3FEDB9B0443127C00DC8217 = A3FEDB9B0443127C00DC8217;
+			A3FEDB9C0443127C00DC8217 = A3FEDB9C0443127C00DC8217;
+			A3FEDB9D0443127C00DC8217 = A3FEDB9D0443127C00DC8217;
+			A3FEDB9E0443127C00DC8217 = A3FEDB9E0443127C00DC8217;
+			A3FEDB9F0443127C00DC8217 = A3FEDB9F0443127C00DC8217;
+			A3FEDBA00443127C00DC8217 = A3FEDBA00443127C00DC8217;
+			A3FEDBA10443127C00DC8217 = A3FEDBA10443127C00DC8217;
+			A3FEDBA20443127C00DC8217 = A3FEDBA20443127C00DC8217;
+			A3FEDBA30443127C00DC8217 = A3FEDBA30443127C00DC8217;
+			A3FEDBA40443127C00DC8217 = A3FEDBA40443127C00DC8217;
+			A3FEDBA50443127C00DC8217 = A3FEDBA50443127C00DC8217;
+			A3FEDBA60443127C00DC8217 = A3FEDBA60443127C00DC8217;
+			A3FEDBA70443127C00DC8217 = A3FEDBA70443127C00DC8217;
+			A3FEDBA80443127C00DC8217 = A3FEDBA80443127C00DC8217;
+			A3FEDBA90443127C00DC8217 = A3FEDBA90443127C00DC8217;
+			A3FEDBAA0443127C00DC8217 = A3FEDBAA0443127C00DC8217;
+			A3FEDBAB0443127C00DC8217 = A3FEDBAB0443127C00DC8217;
+			A3FEDBAC0443127C00DC8217 = A3FEDBAC0443127C00DC8217;
+			A3FEDBAD0443127C00DC8217 = A3FEDBAD0443127C00DC8217;
+			A3FEDBAE0443127C00DC8217 = A3FEDBAE0443127C00DC8217;
+			A3FEDBAF0443127C00DC8217 = A3FEDBAF0443127C00DC8217;
+			A3FEDBB00443127C00DC8217 = A3FEDBB00443127C00DC8217;
+			A3FEDBB10443127C00DC8217 = A3FEDBB10443127C00DC8217;
+			A3FEDBB20443127C00DC8217 = A3FEDBB20443127C00DC8217;
+			A3FEDBB30443127C00DC8217 = A3FEDBB30443127C00DC8217;
+			A3FEDBB40443127C00DC8217 = A3FEDBB40443127C00DC8217;
+			A3FEDBB50443127C00DC8217 = A3FEDBB50443127C00DC8217;
+			A3FEDBB60443127C00DC8217 = A3FEDBB60443127C00DC8217;
+			A3FEDBB70443127C00DC8217 = A3FEDBB70443127C00DC8217;
+			A3FEDBB80443127C00DC8217 = A3FEDBB80443127C00DC8217;
+			A3FEDBB90443127C00DC8217 = A3FEDBB90443127C00DC8217;
+			A3FEDBBA0443127C00DC8217 = A3FEDBBA0443127C00DC8217;
+			A3FEDBBB0443127C00DC8217 = A3FEDBBB0443127C00DC8217;
+			A3FEDBBC0443127C00DC8217 = A3FEDBBC0443127C00DC8217;
+			A3FEDBBD0443127C00DC8217 = A3FEDBBD0443127C00DC8217;
+			A3FEDBBE0443127C00DC8217 = A3FEDBBE0443127C00DC8217;
+			A3FEDBBF0443127C00DC8217 = A3FEDBBF0443127C00DC8217;
+			A3FEDBC00443127C00DC8217 = A3FEDBC00443127C00DC8217;
+			A3FEDBC10443127C00DC8217 = A3FEDBC10443127C00DC8217;
+			A3FEDBC20443127C00DC8217 = A3FEDBC20443127C00DC8217;
+			A3FEDBC30443127C00DC8217 = A3FEDBC30443127C00DC8217;
+		};
+		projectwideBuildSettings = {
+		};
+		wantsIndex = 1;
+		wantsSCM = -1;
+	};
+	A36B08480438830800DC8217 = {
+		activeExec = 0;
+		executables = (
+			A36B084B0438830800DC8217,
+		);
+	};
+	A36B084B0438830800DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = 3DPaint;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A36B086D04389DE600DC8217 = {
+		activeExec = 0;
+		executables = (
+			A36B087A04389DE600DC8217,
+		);
+	};
+	A36B087A04389DE600DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Anim2D;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A36B087F0438A00500DC8217 = {
+		activeExec = 0;
+		executables = (
+			A36B088B0438A00500DC8217,
+		);
+	};
+	A36B088B0438A00500DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Buttons;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A36B08D40438A41A00DC8217 = {
+		exec = A36B084B0438830800DC8217;
+		isa = PBXExecutableBookmark;
+	};
+	A36B08DC0438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A36B08DE0438A41A00DC8217 = {
+		exec = A36B084B0438830800DC8217;
+		isa = PBXExecutableBookmark;
+	};
+	A36B08DF0438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A36B08E00438A41A00DC8217 = {
+		bstl = A36B0840043882E900DC8217;
+		isa = PBXBuildStyleBookmark;
+	};
+	A36B08E10438A41A00DC8217 = {
+		exec = A36B084B0438830800DC8217;
+		isa = PBXExecutableBookmark;
+	};
+	A36B08E20438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A36B08E30438A41A00DC8217 = {
+		exec = A36B084B0438830800DC8217;
+		isa = PBXExecutableBookmark;
+	};
+	A36B08E60438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A36B08E80438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A36B08EC0438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B086D04389DE600DC8217;
+	};
+	A36B08F00438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B086D04389DE600DC8217;
+	};
+	A36B08F10438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A36B08F60438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B086D04389DE600DC8217;
+	};
+	A36B08F70438A41A00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+	};
+	A375F1CB0439F53200DC8217 = {
+		fRef = A375F2130439F53200DC8217;
+		glyphRangeLength = 6;
+		glyphRangeLocation = 0;
+		isa = PBXDocBookmark;
+		name = "Carbon.html: ...";
+	};
+	A375F1EE0439F53200DC8217 = {
+		fRef = A375F2120439F53200DC8217;
+		glyphRangeLength = 6;
+		glyphRangeLocation = 0;
+		isa = PBXDocBookmark;
+		name = "Carbon.html: ...";
+	};
+	A375F1F10439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+	};
+	A375F1F20439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A375F1F30439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED99043998C700DC8217;
+	};
+	A375F1F50439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+	};
+	A375F1F60439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC460439853B00DC8217;
+	};
+	A375F1F70439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC5C0439861F00DC8217;
+	};
+	A375F1F80439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+	};
+	A375F1F90439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B086D04389DE600DC8217;
+	};
+	A375F1FA0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+	};
+	A375F1FB0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC460439853B00DC8217;
+	};
+	A375F1FC0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC5C0439861F00DC8217;
+	};
+	A375F1FD0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC6B043986D200DC8217;
+	};
+	A375F1FE0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC7A0439881C00DC8217;
+	};
+	A375F1FF0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC980439937F00DC8217;
+	};
+	A375F2000439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECA70439942300DC8217;
+	};
+	A375F2010439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECB6043994C200DC8217;
+	};
+	A375F2020439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECC50439959500DC8217;
+	};
+	A375F2030439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED87043997F400DC8217;
+	};
+	A375F2040439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED99043998C700DC8217;
+	};
+	A375F2050439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDA80439992900DC8217;
+	};
+	A375F2060439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDB70439BB1800DC8217;
+	};
+	A375F2070439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDC60439BC0100DC8217;
+	};
+	A375F2080439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDD30439BC0500DC8217;
+	};
+	A375F2090439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDE00439BC3200DC8217;
+	};
+	A375F20A0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDED0439BC3500DC8217;
+	};
+	A375F20C0439F53200DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+	};
+	A375F2120439F53200DC8217 = {
+		isa = PBXFileReference;
+		name = Carbon.html;
+		path = /Developer/Documentation/Carbon/Carbon.html;
+		refType = 0;
+	};
+	A375F2130439F53200DC8217 = {
+		isa = PBXFileReference;
+		name = Carbon.html;
+		path = /Developer/Documentation/Carbon/Carbon.html;
+		refType = 0;
+	};
+	A3B9EC460439853B00DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EC520439853B00DC8217,
+		);
+	};
+	A3B9EC520439853B00DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Collision;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EC5C0439861F00DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EC680439861F00DC8217,
+		);
+	};
+	A3B9EC680439861F00DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Cube;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EC6B043986D200DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EC77043986D200DC8217,
+		);
+	};
+	A3B9EC77043986D200DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Database;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EC7A0439881C00DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EC850439881C00DC8217,
+		);
+	};
+	A3B9EC850439881C00DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Freak;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EC980439937F00DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9ECA40439937F00DC8217,
+		);
+	};
+	A3B9ECA40439937F00DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Fullscreen;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9ECA70439942300DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9ECB30439942300DC8217,
+		);
+	};
+	A3B9ECB30439942300DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = HelloWorld;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9ECB6043994C200DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9ECC2043994C200DC8217,
+		);
+	};
+	A3B9ECC2043994C200DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = MagicHat;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9ECC50439959500DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9ECD10439959500DC8217,
+		);
+	};
+	A3B9ECD10439959500DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = MorphAnim;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9ED87043997F400DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9ED93043997F400DC8217,
+		);
+	};
+	A3B9ED93043997F400DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Particle;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9ED99043998C700DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDA5043998C700DC8217,
+		);
+	};
+	A3B9EDA5043998C700DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = PickinApp;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EDA80439992900DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDB40439992900DC8217,
+		);
+	};
+	A3B9EDB40439992900DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Screenshot;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EDB70439BB1800DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDC30439BB1800DC8217,
+		);
+	};
+	A3B9EDC30439BB1800DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = SoftRenderer;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EDC60439BC0100DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDD20439BC0100DC8217,
+		);
+	};
+	A3B9EDD20439BC0100DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Sound;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EDD30439BC0500DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDDF0439BC0500DC8217,
+		);
+	};
+	A3B9EDDF0439BC0500DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Spider;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EDE00439BC3200DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDEC0439BC3200DC8217,
+		);
+	};
+	A3B9EDEC0439BC3200DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Teapot;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EDED0439BC3500DC8217 = {
+		activeExec = 0;
+		executables = (
+			A3B9EDF90439BC3500DC8217,
+		);
+	};
+	A3B9EDF90439BC3500DC8217 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = UI;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	A3B9EE390439C28000DC8217 = {
+		bstl = A36B0840043882E900DC8217;
+		isa = PBXBuildStyleBookmark;
+	};
+	A3B9EE4D0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+	};
+	A3B9EE4E0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC460439853B00DC8217;
+	};
+	A3B9EE4F0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC5C0439861F00DC8217;
+	};
+	A3B9EE510439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC6B043986D200DC8217;
+	};
+	A3B9EE550439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC7A0439881C00DC8217;
+	};
+	A3B9EE570439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC7A0439881C00DC8217;
+	};
+	A3B9EE590439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC7A0439881C00DC8217;
+	};
+	A3B9EE5A0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC980439937F00DC8217;
+	};
+	A3B9EE5B0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECA70439942300DC8217;
+	};
+	A3B9EE5C0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECB6043994C200DC8217;
+	};
+	A3B9EE5E0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECC50439959500DC8217;
+	};
+	A3B9EE5F0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED87043997F400DC8217;
+	};
+	A3B9EE600439C28000DC8217 = {
+		bstl = A36B0840043882E900DC8217;
+		isa = PBXBuildStyleBookmark;
+	};
+	A3B9EE610439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED87043997F400DC8217;
+	};
+	A3B9EE620439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED99043998C700DC8217;
+	};
+	A3B9EE660439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDA80439992900DC8217;
+	};
+	A3B9EE680439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDA80439992900DC8217;
+	};
+	A3B9EE690439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDB70439BB1800DC8217;
+	};
+	A3B9EE6B0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDC60439BC0100DC8217;
+	};
+	A3B9EE6C0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDD30439BC0500DC8217;
+	};
+	A3B9EE6D0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDE00439BC3200DC8217;
+	};
+	A3B9EE6E0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDED0439BC3500DC8217;
+	};
+	A3B9EE6F0439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDC60439BC0100DC8217;
+	};
+	A3B9EE700439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDD30439BC0500DC8217;
+	};
+	A3B9EE710439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDE00439BC3200DC8217;
+	};
+	A3B9EE720439C28000DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDED0439BC3500DC8217;
+	};
+	A3FEDB990443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 4}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A3DA76AE043AFDFB00DC8217,
+			);
+		};
+	};
+	A3FEDB9A0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B086D04389DE600DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E49043B087D00DC8217,
+			);
+		};
+	};
+	A3FEDB9B0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4A043B088C00DC8217,
+			);
+		};
+	};
+	A3FEDB9C0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC460439853B00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4B043B089B00DC8217,
+			);
+		};
+	};
+	A3FEDB9D0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC5C0439861F00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4C043B08A900DC8217,
+			);
+		};
+	};
+	A3FEDB9E0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC6B043986D200DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4D043B08B200DC8217,
+			);
+		};
+	};
+	A3FEDB9F0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC7A0439881C00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4E043B08BC00DC8217,
+			);
+		};
+	};
+	A3FEDBA00443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC980439937F00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4F043B08C400DC8217,
+			);
+		};
+	};
+	A3FEDBA10443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECA70439942300DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E50043B08CB00DC8217,
+			);
+		};
+	};
+	A3FEDBA20443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECB6043994C200DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E51043B08D000DC8217,
+			);
+		};
+	};
+	A3FEDBA30443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECC50439959500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E52043B08D600DC8217,
+			);
+		};
+	};
+	A3FEDBA40443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED87043997F400DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E53043B08DD00DC8217,
+			);
+		};
+	};
+	A3FEDBA50443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED99043998C700DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E54043B08E300DC8217,
+			);
+		};
+	};
+	A3FEDBA60443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDA80439992900DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E55043B090C00DC8217,
+			);
+		};
+	};
+	A3FEDBA70443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDB70439BB1800DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E56043B091900DC8217,
+			);
+		};
+	};
+	A3FEDBA80443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDC60439BC0100DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E57043B091F00DC8217,
+			);
+		};
+	};
+	A3FEDBA90443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDD30439BC0500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E58043B092500DC8217,
+			);
+		};
+	};
+	A3FEDBAA0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDE00439BC3200DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E59043B092A00DC8217,
+			);
+		};
+	};
+	A3FEDBAB0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDED0439BC3500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {429, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {167, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E5A043B092F00DC8217,
+			);
+		};
+	};
+	A3FEDBAC0443127C00DC8217 = {
+		fRef = A34B22350441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "3DPaint.cpp: __GNUC__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1555;
+		vrLoc = 0;
+	};
+	A3FEDBAD0443127C00DC8217 = {
+		fRef = A34B225D0441B40400DC8217;
+		isa = PBXTextBookmark;
+		name = "SamplesReadMe.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1984;
+		vrLoc = 0;
+	};
+	A3FEDBAE0443127C00DC8217 = {
+		fRef = A34B225D0441B40400DC8217;
+		isa = PBXTextBookmark;
+		name = "SamplesReadMe.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1984;
+		vrLoc = 0;
+	};
+	A3FEDBAF0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B08480438830800DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 4}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A3DA76AE043AFDFB00DC8217,
+			);
+		};
+	};
+	A3FEDBB00443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B086D04389DE600DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E49043B087D00DC8217,
+			);
+		};
+	};
+	A3FEDBB10443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A36B087F0438A00500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4A043B088C00DC8217,
+			);
+		};
+	};
+	A3FEDBB20443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC460439853B00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4B043B089B00DC8217,
+			);
+		};
+	};
+	A3FEDBB30443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC5C0439861F00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4C043B08A900DC8217,
+			);
+		};
+	};
+	A3FEDBB40443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC6B043986D200DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4D043B08B200DC8217,
+			);
+		};
+	};
+	A3FEDBB50443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC7A0439881C00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4E043B08BC00DC8217,
+			);
+		};
+	};
+	A3FEDBB60443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EC980439937F00DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E4F043B08C400DC8217,
+			);
+		};
+	};
+	A3FEDBB70443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECA70439942300DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E50043B08CB00DC8217,
+			);
+		};
+	};
+	A3FEDBB80443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECB6043994C200DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E51043B08D000DC8217,
+			);
+		};
+	};
+	A3FEDBB90443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ECC50439959500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E52043B08D600DC8217,
+			);
+		};
+	};
+	A3FEDBBA0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED87043997F400DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E53043B08DD00DC8217,
+			);
+		};
+	};
+	A3FEDBBB0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9ED99043998C700DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E54043B08E300DC8217,
+			);
+		};
+	};
+	A3FEDBBC0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDA80439992900DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E55043B090C00DC8217,
+			);
+		};
+	};
+	A3FEDBBD0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDB70439BB1800DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E56043B091900DC8217,
+			);
+		};
+	};
+	A3FEDBBE0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDC60439BC0100DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E57043B091F00DC8217,
+			);
+		};
+	};
+	A3FEDBBF0443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDD30439BC0500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E58043B092500DC8217,
+			);
+		};
+	};
+	A3FEDBC00443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDE00439BC3200DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {443, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {174, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E59043B092A00DC8217,
+			);
+		};
+	};
+	A3FEDBC10443127C00DC8217 = {
+		isa = PBXTargetBookmark;
+		trg = A3B9EDED0439BC3500DC8217;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {429, 207}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {167, 492}}";
+			TOCViewSelectedItems = (
+				A33E4E5A043B092F00DC8217,
+			);
+		};
+	};
+	A3FEDBC20443127C00DC8217 = {
+		fRef = A34B22350441B3CC00DC8217;
+		isa = PBXTextBookmark;
+		name = "3DPaint.cpp: __GNUC__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1555;
+		vrLoc = 0;
+	};
+	A3FEDBC30443127C00DC8217 = {
+		fRef = A34B225D0441B40400DC8217;
+		isa = PBXTextBookmark;
+		name = "SamplesReadMe.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1854;
+		vrLoc = 0;
+	};
+}
