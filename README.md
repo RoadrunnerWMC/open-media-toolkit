@@ -5,6 +5,8 @@
 
 This is an unofficial mirror of Open Media Toolkit version 2.5.0, released sometime around April 2003. Everything in this repository is untouched, with the exceptions of this added `README.md` and the `LICENSE` file. I'm uploading it here because, as far as I can tell, the only existing copy is on SourceForge. I'm afraid it may disappear from there someday.
 
+If you want the exact zip files that were released back in 2003, you can find them on the [open-media-toolkit-release-files](https://github.com/RoadrunnerWMC/open-media-toolkit-release-files) repository. (I would have uploaded them as a tagged release on this repository, but GitHub doesn't allow release files to be that large.)
+
 I'm not affiliated with the developers of Open Media Toolkit in any way.
 
 ## Original readme (`ReadMe.txt`)
